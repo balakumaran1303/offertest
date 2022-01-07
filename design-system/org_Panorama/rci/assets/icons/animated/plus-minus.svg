@@ -1,0 +1,62 @@
+<svg id="icon-plus-minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<style>
+		#icon-plus-minus .ver,
+		#icon-plus-minus .hor {
+			opacity: 1;
+			transition: opacity .3s ease-out;
+			transition-delay: .15s;
+			transform-origin: center;
+		}
+
+		#icon-plus-minus .ver {
+			animation: plus-minus-hor-rotate-back .3s ease-in-out forwards;
+		}
+
+		#icon-plus-minus.ani-on .ver {
+			animation: plus-minus-hor-rotate .3s ease-in-out forwards;
+			animation-delay: .3s;
+		}
+
+		#icon-plus-minus.ani-on .hor {
+			opacity: 0 !important;
+		}
+
+		@keyframes plus-minus-hor-rotate {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			20% {
+				transform: rotate(-48deg);
+			}
+
+			60% {
+				transform: rotate(140deg);
+			}
+
+			80% {
+				transform: rotate(70deg);
+			}
+
+			100% {
+				transform: rotate(90deg);
+			}
+		}
+
+		@keyframes plus-minus-hor-rotate-back {
+			0% {
+				transform: rotate(90deg);
+			}
+
+			80% {
+				transform: rotate(-48deg);
+			}
+
+			100% {
+				transform: rotate(0deg);
+			}
+		}
+	</style>
+	<rect class="ver" x="10" width="4" height="24" />
+	<rect class="hor" y="10" width="24" height="4" />
+</svg>

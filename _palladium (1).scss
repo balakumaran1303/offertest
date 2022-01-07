@@ -1,0 +1,20 @@
+.grandoffer {
+      @extend .rounded, .p-0, .position-relative;
+      margin-top: -30px;
+      z-index: auto;
+      .grandoffer-panel{
+        background: $white;  
+      }
+    .button-session{
+      @include media-breakpoint-down(sm){
+        width: 100%;
+      }
+      .button-heading{
+        text-align-last: center;
+      }
+      .readmore{
+        text-align-last: center;
+        font-family: $font-family-sans-serif-bold;
+      }
+    }
+  }

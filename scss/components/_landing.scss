@@ -1,0 +1,14 @@
+.grandoffer {
+    li {
+        @extend .mr-1;
+    }
+    svg {
+        margin-top: px-rem(1px);
+    }
+    .readmore {
+        font-family: $font-family-sans-serif-bold;
+    }
+    .book-now {
+        width: px-rem(200px);
+    }
+}

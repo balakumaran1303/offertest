@@ -1,0 +1,56 @@
+//Flex Panel Core Component Rules
+
+.flex-panel {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: $flex-panel-zindex;
+    display: inline-flex;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    background-color:$flex-panel-background-color;
+    border-radius: $flex-panel-border-radius;
+    box-shadow:$flex-panel-box-shadow;
+
+    @include media-breakpoint-up(md) {
+        position: relative;
+        width:auto;
+        height: auto;
+    }
+
+}
+
+.flex-panel-info {
+    position: relative;
+    border-width:0 0 1px 0;
+    border-style: solid;
+    border-color:$flex-panel-divider-color;
+    padding:$flex-panel-padding;
+
+    & .close-btn {
+        position:absolute;
+        right:0px;
+        top:0px;
+        width:auto;
+        padding-right: 12px;
+    }
+}
+
+.flex-panel-label {
+    display: inline-block;
+    @include font-weights($flex-panel-label-font-family);
+    color:$flex-panel-label-color;
+    margin:0px;
+    padding-right:$flex-panel-close-btn-width;
+}
+
+.flex-panel-content {
+    padding: 0px $flex-panel-padding;
+    position:relative;
+    height:100%;
+
+    @include media-breakpoint-up(md) {
+        padding: 0px $flex-panel-padding $flex-panel-padding;
+    }
+}

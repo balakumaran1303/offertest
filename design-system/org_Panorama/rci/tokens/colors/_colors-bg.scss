@@ -1,0 +1,72 @@
+// Background Color Tokens
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+$background-missing: linear-gradient(0deg, #EAFCFF, #BBEDFF);
+
+$body-bg: $white;
+$body-color: $gray-900;
+
+$background-white: #FFF;
+$background-base: #F9F8FB;
+$background-light: #ffffff;
+$background-dark: #E6F8FC;
+$background-mid: #F2FBFE;
+$background-highlight: #DEDEDE;
+$background-footer :#EDEBEF;
+
+$background-disabled: #E4E4E4;
+
+$background-color-danger: #ffe7e5;
+$background-color-warning: #fff6db;
+$background-color-info: #EDF4FF;
+$background-color-success: #ebf4e3;
+$background-missing: linear-gradient(0deg, #EAFCFF, #BBEDFF);
+
+$mist: #f2fbfe;
+$tide: #d5ede6;
+$breeze: #e6f8fc;
+$rose: #fadbdb;
+$sand: #fae0cf;
+$sand-dollar: #fbf3ec;
+$pearl: #f7f7f7;
+$sidewalk: #dedede;
+$daylight: #fff2cc;
+$grape: #bdb5e5;
+$apricot: #fab97c;
+$watermelon: #fa5454;
+$ocean: #037092;
+$sun: #ffcc45;
+$grass: #5cd999;
+
+$accent-colors: (
+  "mist": $mist,
+  "tide": $tide,
+  "breeze": $breeze,
+  "sand":$sand,
+  "sand-dollar":$sand-dollar,
+  "pearl": $pearl,
+  "sidewalk": $sidewalk,
+  "daylight":$daylight,
+  "grape":$grape,
+  "apricot":$apricot,
+  "watermelon":$watermelon,
+  "ocean":$ocean,
+  "sun":$sun,
+  "grass":$grass);
+
+// // stylelint-disable-next-line scss/dollar-variable-default
+$bg-colors: map-merge($bg-colors,(
+    "dark" : $background-dark,
+    "light": $background-light,
+    "base": $background-base,
+    "white": $background-white,
+    "highlight": $background-highlight,
+    "mid": $background-mid,
+    "black": $black
+    ));
+
+//Icon Colors
+$icon-colors: map-merge($icon-colors, $accent-colors);

@@ -1,0 +1,429 @@
+// stylelint-disable declaration-no-important, selector-list-comma-newline-after
+
+//Base Tags
+p {
+  line-height: 1.5rem;
+}
+
+//
+// Headings
+//
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: $headings-margin-bottom;
+  color: $headings-color;
+}
+
+h1,
+.h1 {
+  @include font-weight-type($font-family:$headings-font-family, $font-weights:$h1-font-weight);
+  @include font-size($h1-font-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    @include font-size($h1-font-size);
+  }
+}
+
+h2,
+.h2 {
+  @include font-weight-type($font-family:$headings-font-family, $font-weights:$h2-font-weight);
+  @include font-size($h2-font-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    @include font-size($h2-font-size);
+  }
+}
+
+h3,
+.h3 {
+  @include font-weight-type($font-family:$headings-font-family, $font-weights:$h3-font-weight);
+  @include font-size($h3-font-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    @include font-size($h3-font-size);
+  }
+}
+
+h4,
+.h4 {
+  @include font-weight-type($font-family:$headings-font-family, $font-weights:$h4-font-weight);
+  @include font-size($h4-font-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    @include font-size($h4-font-size);
+  }
+}
+
+h5,
+.h5 {
+  @include font-weight-type($font-family:$headings-font-family, $font-weights:$h5-font-weight);
+  @include font-size($h5-font-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    @include font-size($h5-font-size);
+  }
+}
+
+h6,
+.h6 {
+  @include font-weight-type($font-family:$headings-font-family, $font-weights:$h6-font-weight);
+  @include font-size($h6-font-size);
+
+  @include media-breakpoint-up(md) {
+    @include font-size($h6-font-size-mobile);
+  }
+}
+
+.lead {
+  @include font-size($lead-font-size);
+  font-weight: $lead-font-weight;
+}
+
+// Type display classes
+
+.display-1 {
+  @include font-weight-type($display-font-family-weight-used, $display-font-family, $display1-weight);
+  line-height: $display1-line-height-mobile;
+  letter-spacing: $display1-letter-spacing;
+  text-transform: $display-text-transform-1;
+  word-spacing: $display1-word-spacing-mobile;
+  @include font-size($display1-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    line-height: $display1-line-height-tablet;
+    letter-spacing: $display1-letter-spacing-tablet;
+    word-spacing: $display1-word-spacing-tablet;
+    @include font-size($display1-size-tablet);
+  }
+
+  @include media-breakpoint-up(lg) {
+    line-height: $display1-line-height;
+    letter-spacing: $display1-letter-spacing;
+    word-spacing: $display1-word-spacing;
+    @include font-size($display1-size);
+  }
+}
+
+.display-2 {
+  @include font-weight-type($display-font-family-weight-used, $display-font-family, $display2-weight);
+  line-height: $display2-line-height-mobile;
+  letter-spacing: $display2-letter-spacing;
+  text-transform: $display-text-transform-2;
+  word-spacing: $display2-word-spacing-mobile;
+  @include font-size($display2-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    line-height: $display2-line-height-tablet;
+    letter-spacing: $display2-letter-spacing-tablet;
+    word-spacing: $display2-word-spacing-tablet;
+    @include font-size($display2-size-tablet);
+  }
+
+  @include media-breakpoint-up(lg) {
+    line-height: $display2-line-height;
+    letter-spacing: $display2-letter-spacing;
+    word-spacing: $display2-word-spacing;
+    @include font-size($display2-size);
+  }
+}
+
+.display-3 {
+  @include font-weight-type($display-font-family-weight-used, $display-font-family, $display3-weight);
+  line-height: $display3-line-height-mobile;
+  letter-spacing: $display3-letter-spacing;
+  text-transform: $display-text-transform-3;
+  word-spacing: $display3-word-spacing-mobile;
+  @include font-size($display3-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    line-height: $display3-line-height-tablet;
+    letter-spacing: $display3-letter-spacing-tablet;
+    word-spacing: $display3-word-spacing-tablet;
+    @include font-size($display3-size-tablet);
+  }
+
+  @include media-breakpoint-up(lg) {
+    line-height: $display3-line-height;
+    letter-spacing: $display3-letter-spacing;
+    word-spacing: $display3-word-spacing;
+    @include font-size($display3-size);
+  }
+}
+
+.display-4 {
+  @include font-weight-type($display-font-family-weight-used, $display-font-family, $display4-weight);
+  line-height: $display4-line-height-mobile;
+  letter-spacing: $display4-letter-spacing;
+  text-transform: $display-text-transform-4;
+  word-spacing: $display4-word-spacing-mobile;
+  @include font-size($display4-size-mobile);
+
+  @include media-breakpoint-up(md) {
+    line-height: $display4-line-height-tablet;
+    letter-spacing: $display4-letter-spacing-tablet;
+    word-spacing: $display4-word-spacing-tablet;
+    @include font-size($display4-size-tablet);
+  }
+
+  @include media-breakpoint-up(lg) {
+    line-height: $display4-line-height;
+    letter-spacing: $display4-letter-spacing;
+    word-spacing: $display4-word-spacing;
+    @include font-size($display4-size);
+  }
+}
+
+// Points Class Generator
+@each $font, $size in $points {
+  .points-#{$font} {    
+    @include font-size(nth($size, 1));
+    line-height: nth($size, 2);
+
+    @include media-breakpoint-up(md) {
+      @include font-size(nth($size, 3));
+      line-height: nth($size, 4);
+    }
+  }
+}
+
+//
+// Horizontal rules
+//
+
+hr {
+  margin-top: $hr-margin-y;
+  margin-bottom: $hr-margin-y;
+  border: 0;
+  border-top: $hr-border-width solid $hr-border-color;
+}
+
+
+//
+// Emphasis
+//
+
+small,
+.small {
+  @include font-size($small-font-size);
+  font-weight: $font-weight-normal;
+}
+
+mark,
+.mark {
+  padding: $mark-padding;
+  background-color: $mark-bg;
+}
+
+
+//
+// Lists
+//
+
+.list-unstyled {
+  @include list-unstyled;
+}
+
+// Inline turns list items into inline-block
+.list-inline {
+  @include list-unstyled;
+}
+
+.list-inline-item {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: $list-inline-padding;
+  }
+}
+
+.bullets, .checked-list {
+  list-style: none;
+  padding-left:1em;
+}
+
+.bullets li::before, .checked-list li::before {
+  content: $bullets-icon;
+  color: $primary;
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.checked-list li::before {
+  content: '';
+  background-image: $checked-list-icon;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: $checked-list-icon-size;
+  width: $checked-list-icon-size;
+  vertical-align: middle;
+  margin-right: .5em;
+}
+
+.link-list {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: auto;
+}
+
+.link-list > li {
+  margin-bottom:$spacer-75;
+}
+
+//
+// Misc
+//
+
+// Builds on `abbr`
+.initialism {
+  @include font-size(90%);
+  text-transform: uppercase;
+}
+
+// Blockquotes
+.blockquote {
+  margin-bottom: $spacer;
+  @include font-size($blockquote-font-size);
+}
+
+.blockquote-footer {
+  display: block;
+  @include font-size($blockquote-small-font-size);
+  color: $blockquote-small-color;
+
+  &::before {
+    content: "\2014\00A0"; // em dash, nbsp
+  }
+}
+
+.subtitle {
+  @include font-weight-type($font-family:$font-family-base, $font-weights:$font-weight-bold);
+  line-height: 1rem;
+  letter-spacing: 1.04px;
+}
+
+.caption {
+  font-size: $font-size-sm;
+  @include font-weight-type($font-family:$font-family-base, $font-weights:$font-weight-normal);
+  line-height: 1rem;
+  letter-spacing: 0.43px;
+}
+
+.overline {
+  font-size: $font-size-sm;
+  @include font-weight-type($font-family:$font-family-base, $font-weights:$font-weight-normal);
+  text-transform: uppercase;
+  line-height: 1rem;
+  letter-spacing: 1.07px;
+}
+
+strong,
+.bold {
+  @include font-weight-type($font-family:$font-weight-bold, $font-weights:$font-weight-bold);
+}
+
+.footnote {
+  @include font-weight-type($font-family:$font-weight-bold, $font-weights:$font-weight-bold);
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color:$gray-600;
+}
+
+// Text Links
+.link-internal:after {
+  content:"\00a0\00bb";
+}
+
+.link-u {
+  text-decoration: underline;
+}
+
+// stylelint-disable declaration-no-important
+
+//
+// Text
+//
+
+.text-monospace { font-family: $font-family-monospace !important; }
+
+// Alignment
+
+.text-justify  { text-align: justify !important; }
+.text-wrap     { white-space: normal !important; }
+.text-nowrap   { white-space: nowrap !important; }
+.text-truncate { @include text-truncate; }
+
+// Responsive alignment
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .text#{$infix}-left   { text-align: left !important; }
+    .text#{$infix}-right  { text-align: right !important; }
+    .text#{$infix}-center { text-align: center !important; }
+  }
+}
+
+// Transformation
+
+.text-lowercase  { text-transform: lowercase !important; }
+.text-uppercase  { text-transform: uppercase !important; }
+.text-capitalize { text-transform: capitalize !important; }
+
+// Weight and italics
+.font-weight-lighter { @include font-weights($font-weight-lighter); }
+.font-weight-light   { @include font-weights($font-weight-light); }
+.font-weight-normal  { @include font-weights($font-weight-normal);}
+.font-weight-bold    { @include font-weights($font-weight-bold); }
+.font-weight-bolder  { @include font-weights($font-weight-bolder); }
+.font-italic         { font-style: italic !important; }
+
+// Contextual colors
+
+.text-white { color: $white !important; }
+
+@each $color, $value in $text-colors {
+  @include text-emphasis-variant(".text-#{$color}", $value);
+}
+
+@each $color, $value in $grays {
+  @include text-emphasis-variant(".text-gray-#{$color}", $value);
+}
+
+.text-body { color: $body-color !important; }
+//.text-muted { color: $text-muted !important; }
+
+.text-black-50 { color: rgba($black, .5) !important; }
+.text-white-50 { color: rgba($white, .5) !important; }
+
+// Misc
+
+.text-hide {
+  @include text-hide($ignore-warning: true);
+}
+
+.text-decoration-none { text-decoration: none !important; }
+
+.text-break {
+  word-break: break-word !important; // IE & < Edge 18
+  overflow-wrap: break-word !important;
+}
+
+// Reset
+
+.text-reset { color: inherit !important; }

@@ -1,0 +1,18 @@
+//Mobile Toolbar Panel Rules
+.mobile-toolbar-panel{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    
+    width:100%;
+    background-color:$mobile-toolbar-panel-bg-color;
+    box-shadow:$mobile-toolbar-panel-shadow;
+    padding:$mobile-toolbar-panel-padding;
+    z-index:$mobile-toolbar-panel-zindex;
+}
+
+.mobile-toolbar-panel-content{
+    min-height:1rem;
+    display:flex;
+}

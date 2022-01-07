@@ -1,0 +1,237 @@
+// // Typography
+// // EN
+// // Font, line-height, and color for body text, headings, and more.
+
+$fallback-fonts: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+
+$font-family-monospace: SFMono-Regular,
+Menlo,
+Monaco,
+Consolas,
+"Liberation Mono",
+"Courier New",
+monospace;
+
+
+// // Font Family Variations
+$font-family-sans-serif: 'Open Sans Regular', $fallback-fonts;
+$font-family-sans-serif-bold: "Open Sans Bold", $fallback-fonts;
+$font-family-sans-serif-semibold: "Open Sans SemiBold", $fallback-fonts;
+$font-family-sans-serif-light: "Open Sans Light", $fallback-fonts;
+
+$font-family-base: $font-family-sans-serif;
+$font-family-display: 'GiorgioSans';
+
+// // stylelint-enable value-keyword-case
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base * 1.25;
+$font-size-sm: $font-size-base * .875;
+
+$font-family-weight-used: true; //required true or false
+$display-font-family-weight-used: true; //required true or false
+
+$font-weight-lighter: lighter;
+$font-weight-light: $font-family-sans-serif-light;
+$font-weight-normal: $font-family-sans-serif;
+$font-weight-bold: $font-family-sans-serif-semibold;
+$font-weight-bolder: $font-family-sans-serif-bold;
+
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+$line-height-lg: 1;
+$line-height-sm: 1;
+
+//Headline Styles
+$headings-margin-bottom: $spacer / 2;
+$headings-font-family: $font-weight-base;
+$headings-line-height: 1.2;
+$headings-color: null;
+
+$h1-font-weight: $font-weight-normal;
+$h2-font-weight: $font-weight-normal;
+$h3-font-weight: $font-weight-bolder;
+$h4-font-weight: $font-weight-normal;
+$h5-font-weight: $font-weight-normal;
+$h6-font-weight: $font-weight-normal;
+
+$h1-font-size-mobile: $font-size-base * 2;
+$h2-font-size-mobile: $font-size-base * 1.5;
+$h3-font-size-mobile: $font-size-base * 1.375;
+$h4-font-size-mobile: $font-size-base * 1.125;
+$h5-font-size-mobile: $font-size-base * 1.125;
+$h6-font-size-mobile: $font-size-base * 1.125;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.375;
+$h4-font-size: $font-size-base * 1.375;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base * 1.125;
+
+$h1-line-height: 1.5;
+$h2-line-height: 1.5;
+$h3-line-height: 1.5;
+$h4-line-height: 1.5;
+$h5-line-height: 1.5;
+$h6-line-height: 1.5;
+
+$h1-mobile-line-height: 1.5;
+$h2-mobile-line-height: 1.5;
+$h3-mobile-line-height: 1.5;
+$h4-mobile-line-height: 1.5;
+$h5-mobile-line-height: 1.5;
+$h6-mobile-line-height: 1.5;
+
+//Display Headlines
+$display-font-family: $font-family-display;
+$display-text-transform-1: uppercase;
+$display-text-transform-2: uppercase;
+$display-text-transform-3: uppercase;
+$display-text-transform-4: uppercase;
+
+$display1-size: 5.625rem;
+$display2-size: 4rem;
+$display3-size: 2.8125rem;
+$display4-size: 2.25rem;
+
+$display1-size-tablet: 5.625rem;
+$display2-size-tablet: 4rem;
+$display3-size-tablet: 2.8125rem;
+$display4-size-tablet: 2.25rem;
+
+$display1-size-mobile: 3.375rem;
+$display2-size-mobile: 2.5rem;
+$display3-size-mobile: 2.25rem;
+$display4-size-mobile: 2.25rem;
+
+$display1-weight: normal;
+$display2-weight: normal;
+$display3-weight: normal;
+$display4-weight: normal;
+
+$display1-line-height: 5rem;
+$display2-line-height: 3.25rem;
+$display3-line-height: 2.5rem;
+$display4-line-height: 2rem;
+
+$display1-line-height-tablet: 5rem;
+$display2-line-height-tablet: 3.25rem;
+$display3-line-height-tablet: 2.5rem;
+$display4-line-height-tablet: 2rem;
+
+$display1-line-height-mobile: 3rem;
+$display2-line-height-mobile: 2rem;
+$display3-line-height-mobile: 2rem;
+$display4-line-height-mobile: 2rem;
+
+$display1-letter-spacing: -0.56px;
+$display2-letter-spacing: -0.41px;
+$display3-letter-spacing: -0.28px;
+$display4-letter-spacing: -0.23px;
+
+$display1-letter-spacing-tablet: -0.56px;
+$display2-letter-spacing-tablet: -0.41px;
+$display3-letter-spacing-tablet: -0.28px;
+$display4-letter-spacing-tablet: -0.23px;
+
+$display1-letter-spacing-mobile: -0.31px;
+$display2-letter-spacing-mobile: -0.25px;
+$display3-letter-spacing-mobile: -0.23px;
+$display4-letter-spacing-mobile: -0.23px;
+
+$display1-word-spacing: 16px;
+$display2-word-spacing: 14px;
+$display3-word-spacing: 8px;
+$display4-word-spacing: 4px;
+
+$display1-word-spacing-tablet: 16px;
+$display2-word-spacing-tablet: 14px;
+$display3-word-spacing-tablet: 8px;
+$display4-word-spacing-tablet: 4px;
+
+$display1-word-spacing-mobile: 10px;
+$display2-word-spacing-mobile: 8px;
+$display3-word-spacing-mobile: 6px;
+$display4-word-spacing-mobile: 4px;
+
+//Points Text Styles
+$points-size-x-small: 1rem;
+$points-size-x-small-line-height:1rem;
+$points-size-small: 1.125rem;
+$points-size-small-line-height:1.5rem;
+$points-size-medium: 1.5rem;
+$points-size-medium-line-height:2rem;
+$points-size-large: 2rem;
+$points-size-large-line-height:2.5rem;
+$points-size-x-large: 3.5rem;
+$points-size-x-large-line-height:4rem;
+
+$points-size-x-small-mobile: 0.875rem;
+$points-size-x-small-mobile-line-height:1rem;
+$points-size-small-mobile: 1.125rem;
+$points-size-small-mobile-line-height:1.5rem;
+$points-size-medium-mobile: 1.375rem;
+$points-size-medium-mobile-line-height:2rem;
+$points-size-large-mobile: 1.5rem;
+$points-size-large-mobile-line-height:2rem;
+$points-size-x-large-mobile: 2.5rem;
+$points-size-x-large-mobile-line-height:3rem;
+
+$points: ();
+// // stylelint-disable-next-line scss/dollar-variable-default
+$points: map-merge(("x-small": ($points-size-x-small, $points-size-x-small-line-height, $points-size-x-small-mobile, $points-size-x-small-mobile-line-height),
+    "small": ($points-size-small, $points-size-small-line-height, $points-size-small-mobile, $points-size-small-mobile-line-height),
+    "medium": ($points-size-medium, $points-size-medium-line-height, $points-size-medium-mobile, $points-size-medium-mobile-line-height),
+    "large": ($points-size-large, $points-size-large-line-height, $points-size-large-mobile, $points-size-large-mobile-line-height),
+    "x-large": ($points-size-x-large, $points-size-x-large-line-height, $points-size-x-large-mobile, $points-size-x-large-mobile-line-height)),
+  $points);
+
+$lead-font-size: $font-size-base * 1.25;
+$lead-font-weight: normal;
+
+$small-font-size: 80%;
+
+$blockquote-small-color: $gray-600;
+$blockquote-small-font-size: $small-font-size;
+$blockquote-font-size: $font-size-base * 1.25;
+
+$hr-border-color: rgba($black, .1);
+$hr-border-width: $border-width;
+
+$mark-padding: .2em;
+
+$dt-font-weight: $font-weight-bold;
+
+$kbd-box-shadow: inset 0 -.1rem 0 rgba($black, .25);
+$nested-kbd-font-weight: $font-weight-bold;
+
+$list-inline-padding: .5rem;
+
+$mark-bg: #fcf8e3;
+
+$hr-margin-y: $spacer;
+
+// Figures
+
+$figure-caption-font-size: 90%;
+$figure-caption-color: $gray-600;
+
+// List Styles
+$bullets-icon: "\2022";
+
+// Checked List Styles - not the checkbox input, just the li
+$checked-list-icon-size: 1.5rem;
+$checked-list-icon-color: $primary;
+$checked-list-icon: str-replace(url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpolygon fill='#{$checked-list-icon-color}' points='9.189 14.939 6.061 11.811 5 12.873 9.189 17.061 18.189 8.061 17.128 7'/%3E%3C/svg%3E"), "#", "%23");

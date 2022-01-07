@@ -1,0 +1,58 @@
+//Global Navigation Variables
+
+//nav bar styles
+$global-nav-padding: $spacer;
+$main-nav-shadow: $shadow1;
+
+//nav-menu styles
+$nav-menu-height:48px;
+$nav-menu-padding: $spacer * 0.5 0px;
+$nav-menu-divider-line-width: 2px;
+$nav-menu-divider-line-color: $black;
+$nav-menu-divider-margins: $spacer * 0.5;
+
+//nav-menu button styles
+$nav-menu-font-family: $font-weight-bolder;
+$nav-menu-color: $text-black;
+$nav-menu-color-hover-active: $primary;
+$nav-menu-font-size:1.125rem;
+$nav-menu-margin: 0px;
+$nav-menu-line-height: 48px;
+$nav-menu-text-transform: uppercase;
+$nav-menu-btn-padding-y: 0px;
+$nav-menu-btn-padding-x: ($spacer * 0.5);
+
+$nav-more-icon-size: 24px;
+$nav-more-icon-padding: 2px 0px 0px 0px;
+$main-menu-arrow-up: str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' %3e%3cpolygon fill='#{$nav-menu-color-hover-active}' points='16.59 16 12 11.055 7.41 16 6 14.478 12 8 18 14.478' /%3e%3C/svg%3E"), "#", "%23");
+
+$main-menu-arrow-down: str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' %3e%3cpolygon fill='#{$nav-menu-color}' points='7.41 8 12 12.945 16.59 8 18 9.522 12 16 6 9.522' /%3E%3C/svg%3E"), "#", "%23");
+
+$main-menu-arrow-down-hover: str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' %3e%3cpolygon fill='#{$nav-menu-color-hover-active}' points='7.41 8 12 12.945 16.59 8 18 9.522 12 16 6 9.522' /%3E%3C/svg%3E"), "#", "%23");
+
+$main-menu-mobile-arrow-right: str-replace(url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' %3e%3cpolygon fill='#{$nav-menu-color}' points='8 16.59 12.945 12 8 7.41 9.522 6 16 12 9.522 18'%3E%3C/polygon%3E%3C/svg%3E"), "#", "%23");
+
+//Faux Typeahead
+$type-ahead-faux-btn-color: $sun;
+
+//sub menu styles
+$sub-menu-container-padding: 0px 1rem;
+$sub-menu-container-bg: $background-base;
+$sub-menu-link-color: $text-black;
+
+$subtitle-font-family: $font-family-sans-serif-bold;
+$subtitle-font-weight:$font-weight-bolder;
+$subtitle-line-height: 1rem;
+$subtitle-letter-spacing: 1.04px;
+$subtitle-text-transform: uppercase;
+
+$sub-menu-list-font-size: 20px;
+$sub-menu-list-margins: 0px;
+$sub-menu-list-padding: 8px 0px;
+$sub-menu-list-line-height: 24px;
+
+$sub-menu-promo-block-text-align: center;
+$sub-menu-promo-block-padding: 8px;
+$sub-menu-promo-block-font-weight: $font-weight-bolder;
+$sub-menu-promo-block-text-transform: uppercase;
+$sub-menu-promo-block-color:$text-black;

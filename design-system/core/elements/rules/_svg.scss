@@ -1,0 +1,35 @@
+// SVG styling options
+
+svg {
+    width:auto;
+    height:auto;
+    pointer-events: none;
+}
+
+@include fix-ie11() {
+    svg {
+        width:24px;
+        height:24px;
+        pointer-events: none;
+    }
+}
+
+// Fills
+@each $color,
+$value in $icon-colors {
+
+    .svg-fill-#{$color},
+    .svg-fill-#{$color} use,
+    .svg-fill-#{$color} path,
+    .svg-fill-#{$color} g,
+    .svg-fill-#{$color} rect,
+    .svg-fill-#{$color} circle,
+    .svg-fill-#{$color} ellipse,
+    .svg-fill-#{$color} line,
+    .svg-fill-#{$color} polygon,
+    .svg-fill-#{$color} polyline {
+        fill: $value;
+    }
+}
+
+path[data-transparent="true"] {fill: $black;}

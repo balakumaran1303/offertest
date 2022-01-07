@@ -1,0 +1,30 @@
+// RCI Calendar/ Date Picker Variables
+
+$calendar-zindex: $zindex-modal!default;
+$calendar-width:320px!default;
+
+// Border Styles
+$calendar-border-width: 2px!default;
+$calendar-border-color: white!default;
+$calendar-border-color-active: $primary!default;
+$calendar-border-radius: 0.5rem!default;
+$calendar-border-radius-active: 0.35rem!default;
+
+// Background Colors
+$calendar-background: #A7DEF7!default;
+$calendar-background-hover: #f0f8ff!default;
+$calendar-background-active: $primary!default;
+
+// Text Styles
+$calendar-text-color: $text-black!default;
+$calendar-text-color-hover: $primary!default;
+$calendar-font-family: $font-weight-bold!default;
+$calendar-font-size: 16px!default;
+$calendar-text-padding: 0.25rem 0!default;
+
+//Calendar Select Buttons
+$calendar-select-shape:$rounded-pill!default;
+$calendar-select-padding: 4px 16px!default;
+$calendar-select-margins: 0px 0px $spacer * .5 0px!default;
+$calendar-select-bg-color: $background-dark!default;
+$calendar-select-border:1px solid $gray-200!default;

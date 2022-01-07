@@ -1,0 +1,37 @@
+@mixin word-wrap() {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+// mixin to determine whether to use font-family or numerical weight properties for font-weight classes
+//EMD
+@mixin font-weights($font-weights) {
+  @if $font-family-weight-used {
+    font-family: $font-weights;
+  }
+
+  @else {
+    font-weight: $font-weights;
+    font-family: $font-family-base;
+  }
+}
+
+
+//Global Mixin for all font-family vs font-weight - required use for multi-font/language support
+// EMD
+@mixin font-weight-type($type: $font-family-weight-used, $font-family: $font-family-base, $font-weights: $font-weight-base) {
+  @if $type {
+    font-family: $font-family;
+  }
+  @else {
+    font-family: $font-family-base;
+    font-weight: $font-weights;
+  }
+}

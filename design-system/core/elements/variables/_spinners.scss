@@ -1,0 +1,17 @@
+// Spinners
+
+$spinner-width:         1rem !default;
+$spinner-height:        $spinner-width !default;
+$spinner-border-width:  2px!default;
+
+
+$spinner-width-sm:        .5rem !default;
+$spinner-height-sm:      $spinner-width-sm !default;
+$spinner-border-width-sm: 2px!default;
+
+$spinner-width-lg:        2.5rem !default;
+$spinner-height-lg:      $spinner-width-lg !default;
+$spinner-border-width-lg: 6px!default;
+
+$spinner-delay:        0s!default;
+$spinner-grow-duration:      .75s!default;

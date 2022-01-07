@@ -1,0 +1,62 @@
+// Simple Components Color Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+$component-active-color:      $white;
+$component-active-bg:         theme-color("primary");
+
+//Input Colors
+$input-error-bg: #ffffff;
+$input-selected-bg: #ffffff;
+$input-disabled-bg: $background-disabled;
+$input-hover-bg: #e0dfe2;
+$input-active-bg: #ffffff;
+$input-focus-bg: #ffffff;
+$input-enabled-bg: #ffffff;
+
+$input-error-border: $red;
+$input-selected-border: $primary;
+$input-disabled-border: $background-disabled;
+$input-hover-border: #e0dfe2;
+$input-active-border: $primary;
+$input-focus-border: $primary;
+$input-enabled-border: $gray-200;
+
+//Interactive Colors
+$interactive-error-bg: #ffffff;
+$interactive-selected-bg: #b3e8f8;
+$interactive-disabled-bg: $background-disabled;
+$interactive-hover-bg: #E1F6FC;
+$interactive-active-bg: #008094;
+$interactive-focus-bg: #008094;
+$interactive-enabled-bg: #ffffff;
+
+$interactive-error-border: #ffffff;
+$interactive-selected-border: #E1F6FC;
+$interactive-disabled-border: $background-disabled;
+$interactive-hover-border: #E1F6FC;
+$interactive-active-border: #008094;
+$interactive-focus-border: #008094;
+$interactive-enabled-border: #008094;
+
+//Toggle
+$toggle-selected-bg: $primary;
+$toggle-disabled-bg: $background-disabled;
+$toggle-hover-bg: $primary;
+$toggle-active-bg: $primary;
+$toggle-focus-bg: $primary;
+$toggle-enabled-bg: #ffffff;
+
+$toggle-selected-border: $primary;
+$toggle-disabled-border: $background-disabled;
+$toggle-hover-border: $primary;
+$toggle-active-border: $primary;
+$toggle-focus-border: $primary;
+$toggle-enabled-border: $gray-200;
+
+$toggle-switch-bg: #A6A6A6;
+$toggle-switch-indicator-color: white;
+
+//Outline Button 
+$outline-btn-background-color: white;

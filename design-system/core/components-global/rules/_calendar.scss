@@ -1,0 +1,262 @@
+.calendar-container {
+    height: 100%;
+    position: relative;
+    padding: 84px 0px 58px;
+
+    &.no-calendar-select {
+        padding-top:0px;
+    }
+
+    @include media-breakpoint-up(md) {
+        height: auto;
+        padding: 0px;
+    }
+}
+
+.DayPicker {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom:96px;
+
+    @include media-breakpoint-up(md) {
+        padding-bottom: 0px;
+    }
+    
+}
+
+//Calendar Controls Styles
+.cal-nav-btn-container {
+    position: absolute;
+    width: 100%;
+}
+
+.cal-arrow-btn {
+    width: auto;
+    height: 40px;
+    padding: 0.5rem;
+
+    &:hover {
+        border-color: $primary;
+    }
+}
+
+//Calendar Selections Styles
+.calendar-selections {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: $calendar-zindex;
+
+    @include media-breakpoint-up(md) {
+        position: relative;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    & .calender-select {
+        width:100%;
+        border-radius: $calendar-select-shape;
+        padding: $calendar-select-padding;
+        border: $calendar-select-border;
+        margin: $calendar-select-margins;
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            width: calc(#{$calendar-width} - 2rem);
+        }
+
+
+        &.active {
+            background-color: $calendar-select-bg-color;
+            border-color: $calendar-select-bg-color;
+        }
+    }
+
+    & .calendar-dash {
+        display:none;
+
+        @include media-breakpoint-up(md) {
+            display: inline-block;
+            width:2rem;
+            text-align:center;
+        }
+    }
+}
+
+.calendar-ctas {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 0;
+    left:0;
+    background-color: white;
+    width: 100%;
+    padding: 16px;
+
+    @include media-breakpoint-up(md) {
+        position: relative;
+    }
+
+    &>button {
+        @include media-breakpoint-up(md) {
+            width: auto;
+        }
+    }
+}
+
+.DayPicker-wrapper {
+    position: relative;
+}
+
+.DayPicker-Months {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+    }
+}
+
+.DayPicker-Month {
+    width: 100%;
+    max-width: 320px;
+    padding: 2px 1rem 1.5rem;
+    margin: 0px auto;
+
+    @include media-breakpoint-up(md) {
+        width: calc(320px - 1rem);
+        display: inline-block;
+
+        &:nth-child(1) {
+            padding-left: 0px;
+        }
+
+        &:nth-child(2) {
+            padding-right: 0px;
+        }
+    }
+
+}
+
+.no-calendar-select .DayPicker-Month {
+    &:nth-child(1) {
+        padding-left: 1rem;
+    }
+}
+
+
+
+.DayPicker-Weekdays {
+    margin-bottom: 1rem;
+}
+
+.DayPicker-Weekday {
+    display: inline-block;
+    color: $text-muted;
+    text-align: center;
+    font-size: $font-size-sm;
+    width: calc(100%/7);
+    padding: 0 0.25em;
+}
+
+.DayPicker-Caption {
+    display: inline-block;
+    font-family: $font-weight-normal !important;
+    font-size: $h4-font-size;
+    color: $text-black;
+    width: 100%;
+    text-align: center;
+    padding: 0.25rem 0.5rem 0;
+}
+
+.DayPicker-Body {
+    min-height:216px;
+}
+
+.DayPicker-Day {
+    position: relative;
+    display: inline-block;
+    width: calc(100%/7);
+    padding: 4px 0px;
+    color: $calendar-text-color;
+    background-color: $calendar-background;
+    border: solid $calendar-border-width $calendar-border-color;
+    border-radius: $calendar-border-radius;
+    text-align: center;
+    font-size: $calendar-font-size;
+    font-family: $calendar-font-family;
+    vertical-align: middle;
+    cursor: pointer;
+
+    &:hover {
+        color: $calendar-text-color-hover;
+        background-color: $calendar-background-hover;
+    }
+
+    &:active,
+    &.active {
+        @include text-contrast($calendar-background-active);
+        background-color: $calendar-background-active;
+        outline: 0;
+    }
+
+    &.disabled,
+    &.DayPicker-Day--disabled {
+        pointer-events: none;
+        color: $text-disabled;
+        cursor: default;
+        background-color: #f3f3f3;
+        background-image: repeating-linear-gradient(-45deg, transparent,
+                transparent 5px,
+                #cecece 7px,
+                #cecece 7px);
+    }
+
+    &.active-outline {
+        border-color: $primary;
+    }
+
+    &.DayPicker-Day--selected {
+
+        &:before {
+            content: " ";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            border: 2px solid $calendar-border-color-active;
+            border-radius: $calendar-border-radius-active;
+          }
+    }
+
+    &.DayPicker-Day--start.DayPicker-Day--selected,
+    &.DayPicker-Day--end.DayPicker-Day--selected {
+        background-color: $calendar-background-active;
+        color: white;
+    }
+
+    &.DayPicker-Day--outside {
+        padding: 0px;
+        border: none;
+
+        &:before {
+            border:none;
+        }
+    }
+
+    &.DayPicker-Day:focus {
+        border: 2px solid $primary;
+        border-radius: 0.35rem;
+      }
+
+
+
+}

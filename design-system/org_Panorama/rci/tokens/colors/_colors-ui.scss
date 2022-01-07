@@ -1,0 +1,57 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// RCI Color System
+$primary: #037092;
+$priority: #FFCC45;
+$secondary: #F5F5F5;
+
+$color-secondary: #F5F5F5;
+$color-secondary-outline: #C7C6C8;
+
+$color-info: #1063E9;
+$color-success: #76B143;
+$color-warning: #FFC107;
+$color-danger: #8B0F04;
+
+$theme-colors: map-merge($theme-colors,(
+    "primary": $primary,
+    "priority": $priority,
+    "secondary": $secondary,
+    ));
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval: 8%;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold: 150;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark: $gray-900;
+$yiq-text-light: $white;
+
+// Text Colors
+$text-black: rgba(0, 0, 0, 0.87);
+$text-disabled: #7C7C7E;
+$text-muted: rgba(0, 0, 0, 0.6);
+$text-success: #28A745;
+$text-info: #17A2B8;
+$text-warning: #FFC107;
+$text-danger: #B00020;
+
+$text-colors: map-merge($text-colors,(
+    "primary": $primary,
+    "priority": $priority,
+    "secondary": $secondary,
+    "black": $text-black,
+    "success": $text-success,
+    "info": $text-info,
+    "warning": $text-warning,
+    "danger": $text-danger,
+    "muted": $text-muted,
+    ));
+
+//Icon Colors
+$icon-colors: map-collect($text-colors,$accent-colors);

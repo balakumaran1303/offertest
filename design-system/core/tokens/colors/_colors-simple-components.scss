@@ -1,0 +1,75 @@
+// UI Elements Color Variables
+//
+// Input Colors
+// Form Options Colors
+// Toggle Colors
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+$component-active-color:      $white !default;
+$component-active-bg:         theme-color("primary") !default;
+
+//Notice Colors
+$notice-colors:() !default;
+$notice-colors: map-merge((
+    "success": $color-success,
+    "info": $color-info,
+    "warning": $color-warning,
+    "danger": $color-danger),
+  $notice-colors);
+
+//Input Colors
+$input-error-bg: #ffffff!default;
+$input-selected-bg: #ffffff!default;
+$input-disabled-bg: $background-disabled!default;
+$input-hover-bg: #e0dfe2!default;
+$input-active-bg: #ffffff!default;
+$input-focus-bg: #ffffff!default;
+$input-enabled-bg: #ffffff!default;
+
+$input-error-border: $red!default;
+$input-selected-border: $primary!default;
+$input-disabled-border: $background-disabled!default;
+$input-hover-border: #e0dfe2!default;
+$input-active-border: $primary!default;
+$input-focus-border: $primary!default;
+$input-enabled-border: $gray-200!default;
+ 
+//Interactive Colors
+$interactive-error-bg: #ffffff!default;
+$interactive-selected-bg: #b3e8f8!default;
+$interactive-disabled-bg: $background-disabled!default;
+$interactive-hover-bg: #E1F6FC!default;
+$interactive-active-bg: #008094!default;
+$interactive-focus-bg: #008094!default;
+$interactive-enabled-bg: #ffffff!default;
+
+$interactive-error-border: #ffffff!default;
+$interactive-selected-border: #E1F6FC!default;
+$interactive-disabled-border: $background-disabled!default;
+$interactive-hover-border: #E1F6FC!default;
+$interactive-active-border: #008094!default;
+$interactive-focus-border: #008094!default;
+$interactive-enabled-border: #008094!default;
+
+//Toggle
+$toggle-selected-bg: $primary!default;
+$toggle-disabled-bg: $background-disabled!default;
+$toggle-hover-bg: $primary!default;
+$toggle-active-bg: $primary!default;
+$toggle-focus-bg: $primary!default;
+$toggle-enabled-bg: #ffffff!default;
+
+$toggle-selected-border: $primary!default;
+$toggle-disabled-border: $background-disabled!default;
+$toggle-hover-border: $primary!default;
+$toggle-active-border: $primary!default;
+$toggle-focus-border: $primary!default;
+$toggle-enabled-border: $gray-200!default;
+
+$toggle-switch-bg: #A6A6A6!default;
+$toggle-switch-indicator-color: white!default;
+
+//Outline Button 
+$outline-btn-background-color: white!default;

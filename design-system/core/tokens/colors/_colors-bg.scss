@@ -1,0 +1,39 @@
+// Background Color Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+$background-color-danger: #ffe7e5!default;
+$background-color-warning: #fff6db!default;
+$background-color-info: #EDF4FF!default;
+$background-color-success: #ebf4e3!default;
+$background-missing: linear-gradient(0deg, #EAFCFF, #BBEDFF)!default;
+
+$body-bg:                   $white !default;
+$body-color:                $gray-900 !default;
+
+$background-white: #FFF!default;
+$background-base: #F9F8FB!default;
+$background-light: #ffffff!default;
+$background-dark: #E6F8FC!default;
+$background-mid: #F2FBFE!default;
+$background-highlight: #DEDEDE!default;
+$background-footer :#EDEBEF!default;
+
+$background-disabled: #E4E4E4!default;
+
+$bg-colors: () !default;
+$bg-colors: map-merge((
+    "success": $background-color-success,
+    "info": $background-color-info,
+    "warning": $background-color-warning,
+    "danger": $background-color-danger,
+    "dark" : $background-dark,
+    "light": $background-light,
+    "base": $background-base,
+    "white": $background-white,
+    "highlight": $background-highlight,
+    "mid": $background-mid,
+    "footer": $background-footer,
+    "black": $black),
+  $bg-colors);

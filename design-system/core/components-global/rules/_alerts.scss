@@ -1,0 +1,350 @@
+//
+// Alerts styles
+//
+
+.alert {
+  position: relative;
+  padding: $alert-padding-y $alert-padding-x;
+  margin-bottom: $alert-margin-bottom;
+  border: $alert-border-width solid transparent;
+  @include border-radius($alert-border-radius);
+}
+
+// Headings for larger alerts
+.alert-heading {
+  // Specified to prevent conflicts of changing $headings-color
+  color: inherit;
+}
+
+// Provide class for links that match alerts
+.alert-link {
+  font-weight: $alert-link-font-weight;
+}
+
+
+// Dismissible alerts
+//
+// Expand the right padding and account for the close button's positioning.
+
+.alert-dismissible {
+  padding-right: $close-font-size + $alert-padding-x * 2;
+
+  // Adjust close link position
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: $alert-padding-y $alert-padding-x;
+    color: black;
+  }
+}
+
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the alert.
+
+@each $color,
+$value in $theme-colors {
+  .alert-#{$color} {
+    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), $black);
+  }
+}
+
+// Notifications
+
+.notice-inline,
+.notice-banner,
+.notice-modal,
+.notice-toast {
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+//Inline Notifications
+.notice-inline {
+  position: relative;
+  border-style: solid;
+  border-width: $notification-inline-border-width;
+  background-color: $notice-inline-background-color !important;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 1rem;
+  border-radius: 0px $notification-border-radius $notification-border-radius 0px;
+  box-shadow: $shadow1;
+
+  & > p {
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+}
+
+.notice-banner {
+  position: relative;
+  border-style: solid;
+  border-width: $notification-border-width;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: $notification-banner-padding;
+  border-radius: $notification-border-radius;
+  background-color: $notice-banner-background-color !important;
+}
+
+.notice-modal {
+  position: relative;
+  border-style: solid;
+  border-width: $notification-border-width;
+  background-color: $notice-modal-background-color !important;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: $notification-modal-padding;
+  border-radius: $notification-border-radius;
+  min-height: 300px;
+  box-shadow: $notice-modal-shadow;
+}
+
+.notice-toast {
+  position: relative;
+  border-style: solid;
+  border-width: $notification-border-width;
+  background-color: $notice-toast-background-color !important;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 1rem;
+  border-radius: $notification-border-radius;
+  max-width: 320px;
+  box-shadow: $shadow4;
+  color: white !important;
+
+  & > p {
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+}
+
+.global-banner {
+  position: relative;
+  border-style: solid;
+  text-align: $global-banner-text-alignment;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: $global-banner-padding;
+  border: none !important;
+}
+
+//Notification Type Styles
+.msg-info {
+  border-color: $border-color-info;
+  color: $text-black;
+  background-color: $notice-banner-background-color-info;
+}
+
+.msg-success {
+  border-color: $border-color-success;
+  color: $text-black;
+  background-color: $notice-banner-background-color-success;
+}
+
+.msg-warning {
+  border-color: $border-color-warning;
+  color: $text-black;
+  background-color: $notice-banner-background-color-warning;
+}
+
+.msg-danger {
+  border-color: $border-color-danger;
+  color: $text-black;
+  background-color: $notice-banner-background-color-danger;
+}
+
+.msg-info:before, .msg-info:after,
+.msg-success:before, .msg-success:after,
+.msg-warning:before, .msg-warning:after,
+.msg-danger:before, .msg-danger:after {
+  content: '';
+  display: block;
+  background-size: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 1rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow:visible;
+  width: $icon-pop;
+  height: $icon-pop;
+
+  @include media-breakpoint-up(md) {
+    left: calc(#{$icon-pop} - #{$icon-size});
+    top: 0;
+    bottom: 0;
+    right:auto;
+  }
+}
+
+@keyframes info-icon-animation {
+  0% {
+    transform: rotateY(180deg);
+  }
+  5% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes success-icon-animation {
+  0% {
+    background-size: 50%;
+    background-position-y: top;
+  }
+  50% {
+    background-size: 50%;
+    background-position-y: bottom;
+  }
+  75% {
+    background-size: $icon-pop;
+    background-position-y: center;
+  }
+  100% {
+    background-size: $icon-size;
+    background-position-y: center;
+  }
+}
+
+@keyframes warning-icon-animation {
+  0% {
+    transform: rotate(20deg);
+  }
+  5% {
+    transform: rotate(-20deg);
+  }
+  10% {
+    transform: rotate(20deg);
+  }
+  15% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes danger-icon-animation {
+  0% {
+      background-position: center;
+  }
+  5% {
+    background-position: top;
+  }
+  10% {
+    background-position: bottom;
+  }
+  15% {
+    background-position: top;
+  }
+  20% {
+    background-position: bottom;
+  }
+  25% {
+    background-position: center;
+  }
+
+  // 0% {
+  //   background-size: $icon-size;
+  // }
+  // 5% {
+  //   background-size: $icon-pop;
+  // }
+  // 10% {
+  //   background-size: $icon-size;
+  // }
+  // 15% {
+  //   background-size: $icon-pop;
+  // }
+  // 20% {
+  //   background-size: $icon-size;
+  // }
+  // 100% {
+  //   background-size: $icon-size;
+  // }
+}
+
+.msg-info.icon,
+.msg-success.icon,
+.msg-warning.icon,
+.msg-danger.icon {
+  padding-left: 1rem;
+  padding-top: $icon-padding;
+
+  @include media-breakpoint-up(md) {
+    padding-left:$icon-padding;
+    padding-top:1rem;
+  }
+}
+
+.msg-info.icon,
+.msg-success.icon,
+.msg-warning.icon,
+.msg-danger.icon {
+  &:before {
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+}
+
+.msg-info.icon:after {
+  background-image: $icon-info;
+  background-size: $icon-size;
+  animation-name: info-icon-animation;
+  animation-duration: 2500ms;
+  animation-delay:500ms;
+  animation-fill-mode: forwards;
+}
+
+.msg-success.icon:after {
+  background-image: $icon-success;
+  animation-name: success-icon-animation;
+  animation-duration: 500ms;
+  animation-delay:500ms;
+  animation-fill-mode: forwards;
+}
+
+.msg-warning.icon:after {
+  background-image: $icon-warning;
+  background-size: $icon-size;
+  animation-name: warning-icon-animation;
+  animation-duration: 2500ms;
+  animation-delay:500ms;
+  animation-fill-mode: forwards;
+}
+
+.msg-danger.icon:after {
+  background-image: $icon-danger;
+  background-size: $icon-size;
+  animation-name: danger-icon-animation;
+  animation-duration: 2500ms;
+  animation-delay:500ms;
+  animation-fill-mode: forwards;
+}
+
+.msg-info.icon:before {
+  background-image: $notice-icon-pulse-shape-info;
+}
+
+.msg-success.icon:before {
+  background-image: $notice-icon-pulse-shape-success;
+}
+
+.msg-warning.icon:before {
+  background-image: $notice-icon-pulse-shape-warning;
+}
+
+.msg-danger.icon:before {
+  background-image: $notice-icon-pulse-shape-danger;
+}

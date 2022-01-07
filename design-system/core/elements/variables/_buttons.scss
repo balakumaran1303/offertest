@@ -1,0 +1,99 @@
+// Buttons + Forms
+//
+
+//Button Text Styles
+$btn-font-family: $font-weight-bolder!default;
+$btn-font-weight: $font-weight-bolder!default;
+$primary-btn-text-transform:     none!default;
+$priority-btn-text-transform:     uppercase!default;
+$secondary-btn-text-transform:     none!default;
+$ghost-btn-text-transform:     none!default;
+
+//Black and White Button Variables
+$btn-black-background-hover: $primary!default;
+$btn-black-text-color-hover: $white!default;
+$btn-black-outline-border-color-hover: $primary!default;
+
+$btn-white-background-color-hover: $interactive-hover-bg!default;
+$btn-white-border-color-hover: $interactive-hover-bg!default;
+
+$btn-outline-white-background: rgba(0,0,0,0.5);
+$btn-white-text-color-hover: $white!default;
+
+
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+$input-btn-padding-y:         0.75rem!default;
+$input-btn-padding-x:         1.5rem!default;
+$input-btn-font-family:       $font-weight-bold!default;
+$input-btn-font-size:         $font-size-base !default;
+$input-btn-line-height:       $line-height-base !default;
+
+$input-btn-focus-width:       .2rem !default;
+$input-btn-focus-color:       rgba($component-active-bg, .25) !default;
+$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+$input-btn-padding-y-sm:      .45rem !default;
+$input-btn-padding-x-sm:      .5rem !default;
+$input-btn-font-size-sm:      $font-size-sm !default;
+$input-btn-line-height-sm:    $line-height-sm !default;
+
+$input-btn-padding-y-lg:      2rem!default;
+$input-btn-padding-x-lg:      3rem!default;
+$input-btn-font-size-lg:      $font-size-lg !default;
+$input-btn-line-height-lg:    $line-height-lg !default;
+
+$input-btn-border-width:      $border-width !default;
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+$btn-border-width:            $input-btn-border-width * 2 !default;
+
+// Base Button
+$btn-height-base:             48px!default;
+
+$btn-font-size:               $input-btn-font-size !default;
+$btn-line-height:             $input-btn-line-height !default;
+$btn-padding-x:               $input-btn-padding-x - $btn-border-width !default;
+$btn-padding-y:               button-padding($btn-height-base, $btn-font-size, $btn-line-height, $btn-border-width)!default;
+
+$btn-padding-y-icon:          button-padding($btn-height-base, $btn-font-size, $btn-line-height, $btn-border-width)!default;
+$btn-padding-x-icon:          0.5rem!default;
+$btn-icon-width:              24px!default;
+
+// Small Button 
+$btn-height-sm:               32px!default;
+$btn-padding-y-sm-icon:       2px!default;
+$btn-padding-x-sm-icon:       0.5rem!default;
+$btn-sm-icon-width:           24px!default;
+$btn-line-height-sm-icon:     1.5!default;
+
+$btn-font-size-sm:            $input-btn-font-size-sm !default;
+$btn-line-height-sm:          $input-btn-line-height-sm !default;
+$btn-padding-x-sm:            $input-btn-padding-x - $border-width !default;
+$btn-padding-y-sm:            button-padding($btn-height-sm, $btn-font-size-sm, $btn-line-height-sm, $btn-border-width)!default;
+
+// Large Button 
+$btn-height-lg:               96px!default;
+$btn-font-size-lg:            $input-btn-font-size-lg !default;
+$btn-line-height-lg:          $input-btn-line-height-lg !default;
+$btn-padding-x-lg:            $input-btn-padding-x - $border-width !default;
+$btn-padding-y-lg:            button-padding($btn-height-lg, $btn-font-size-lg, $btn-line-height-lg, $btn-border-width)!default;
+
+//General Seetings
+$btn-box-shadow:              $shadow1!default; //inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
+$btn-focus-width:             $input-btn-focus-width !default;
+$btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
+$btn-disabled-opacity:        .65 !default;
+$btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
+
+$btn-link-disabled-color:     $gray-600 !default;
+
+$btn-block-spacing-y:         .5rem !default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:           $border-radius !default;
+$btn-border-radius-lg:        $border-radius !default;
+$btn-border-radius-sm:        $border-radius !default;
+
+$btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;

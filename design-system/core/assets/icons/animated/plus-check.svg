@@ -1,0 +1,53 @@
+<svg id="plus-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+    <defs>
+        <style>
+            .svg-white {
+                fill: white !important;
+            }
+
+            .gray {fill:#CCCCCC!important;}
+
+            #plus-check .plus {
+                transform-origin: center;
+                animation: plus-check-pop .2s forwards;
+            }
+
+            #plus-check .check {
+                transform-origin: center;
+                transform:scale(0);
+                animation: plus-check-shrink .2s forwards;
+            }
+
+            #plus-check.ani-on .plus {
+                animation: plus-check-shrink .2s forwards;
+            }
+
+            #plus-check.ani-on .check {
+                animation: plus-check-pop .2s forwards;
+            }
+
+            @keyframes plus-check-shrink {
+                0% {transform:scale(1);}
+                100% {transform:scale(0);}
+            }
+            @keyframes plus-check-pop {
+                0% {transform:scale(0);}
+                100% {transform:scale(1);}
+            }
+        </style>
+    </defs>
+    <g class="check">
+        <circle class="svg-white" cx="21" cy="21" r="19" />
+        <path id="rim"
+            d="M21,3A18,18,0,1,1,3,21,18,18,0,0,1,21,3m0-3A21,21,0,1,0,42,21,21,21,0,0,0,21,0Z" />
+        <path id="check-2" data-name="check" class="cls-3"
+            d="M19,27.9a2.21,2.21,0,0,1-3,0l-4.31-4.12a2,2,0,0,1,0-2.88,2.21,2.21,0,0,1,3,0l2.79,2.67,9.91-9.47a2.18,2.18,0,0,1,1.51-.6,2.2,2.2,0,0,1,1.52.6A2,2,0,0,1,31,15.54,2,2,0,0,1,30.37,17Z" />
+    </g>
+    <g class="plus">
+        <circle class="svg-white" cx="21" cy="21" r="19" />
+        <path id="rim-2" data-name="rim" class="gray"
+            d="M21,3A18,18,0,1,1,3,21,18,18,0,0,1,21,3m0-3A21,21,0,1,0,42,21,21,21,0,0,0,21,0Z" />
+        <rect id="plus-bar-hor" class="gray" x="13" y="19" width="16" height="4" rx="1" />
+        <rect id="plus-bar-ver" class="gray" x="19" y="13" width="4" height="16" rx="1" />
+    </g>
+</svg>

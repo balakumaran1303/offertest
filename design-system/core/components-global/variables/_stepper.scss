@@ -1,0 +1,27 @@
+//Default Stepper Styles
+$step-number-size: 24px!default;
+$step-number-bg-color: $primary!default;
+
+$step-description-font: $font-family-sans-serif-semibold!default;
+$step-description-color: $primary!default;
+
+$step-counter-font-family: $font-family-sans-serif-semibold!default;
+$step-counter-color: $text-muted!default;
+
+$step-dash-size: 1px!default;
+
+$counter-margin-left: 8px!default;
+
+//Selected Step
+$step-description-selected-font: $font-family-sans-serif-bold!default;
+$step-description-selected-color: $text-black!default;
+
+//Completed Step
+$check-icon-color: white!default;
+$step-number-check: str-replace(url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 24 24'%3E%3Cpolygon fill='#{$check-icon-color}' points='9.189 14.939 6.061 11.811 5 12.873 9.189 17.061 18.189 8.061 17.128 7'/%3E%3C/svg%3E"), "#", "%23")!default;
+
+$step-description-completed-color: $text-black!default;
+
+//Disabled Step
+$step-number-bg-disabled: $background-disabled!default;
+$step-description-disabled-color: $text-disabled!default;

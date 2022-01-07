@@ -1,0 +1,62 @@
+.accordion-icons[aria-expanded="true"] {
+    .accordion-open {
+        @extend .d-none;
+    }
+    .accordion-close {
+        @extend .d-inline-block;
+    }
+}
+
+.accordion-icons[aria-expanded="false"] {
+    .accordion-open {
+        @extend .d-inline-block;
+    }
+    .accordion-close {
+        @extend .d-none;
+    }
+}
+
+.accordion-section {
+    .accordion-links { 
+        border: px-rem(0px);
+            @extend .shadow-none;
+        .accordion-title {
+            @extend .position-relative;
+            span {
+                @extend .position-absolute, .ml-1;
+            }
+            .float-right {
+                right: px-rem(0px);
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+    .accordion-links[tabindex='0']:focus {
+        @extend :focus;
+    }
+    .accordion-body {
+        .accordion-container {
+            @extend .m-0;
+        }
+        .accordion-links {
+            @extend .p-0;
+            .accordion-title {
+                @extend .mb-2;
+            }
+        }
+        .accordion-body {
+            @extend .p-0;
+            .textoffer {
+                @extend .p-0,
+                .m-0;
+                &>div {
+                    @extend .m-0;
+                }
+                .textoffer-body {
+                    @extend .p-0;
+                }
+            }
+        }
+    }
+}

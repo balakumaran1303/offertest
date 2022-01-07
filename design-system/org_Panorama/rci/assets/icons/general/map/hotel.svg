@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <circle id="hotel-b" cx="15.063" cy="15.063" r="13.063"/>
+    <filter id="hotel-a" width="134.4%" height="134.4%" x="-17.2%" y="-17.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#hotel-a)" xlink:href="#hotel-b"/>
+    <use fill="#FF00B9" fill-opacity="0" xlink:href="#hotel-b"/>
+    <circle cx="15.063" cy="15.063" r="13.063" fill="#686868"/>
+    <path fill="#FFF" d="M15.0802778,1 C22.3043157,1 28.1605556,7.07213808 28.1605556,14.5625 C28.1605556,22.0528619 22.3043157,28.125 15.0802778,28.125 C7.85623984,28.125 2,22.0528619 2,14.5625 C2,7.07213808 7.85623984,1 15.0802778,1 Z M15.0802778,2.44666667 C8.62680388,2.44666667 3.39522963,7.87111002 3.39522963,14.5625 C3.39522963,21.25389 8.62680388,26.6783333 15.0802778,26.6783333 C21.5337517,26.6783333 26.7653259,21.25389 26.7653259,14.5625 C26.7653259,7.87111002 21.5337517,2.44666667 15.0802778,2.44666667 Z"/>
+    <path fill="#FFF" d="M5.25,9.75 C6.495,9.75 7.5,8.745 7.5,7.5 C7.5,6.255 6.495,5.25 5.25,5.25 C4.005,5.25 3,6.255 3,7.5 C3,8.745 4.005,9.75 5.25,9.75 Z M14.25,5.25 L8.25,5.25 L8.25,10.5 L2.25,10.5 L2.25,3.75 L0.75,3.75 L0.75,15 L2.25,15 L2.25,12.75 L15.75,12.75 L15.75,15 L17.25,15 L17.25,8.25 C17.25,6.5925 15.9075,5.25 14.25,5.25 Z" transform="translate(6 5)"/>
+  </g>
+</svg>

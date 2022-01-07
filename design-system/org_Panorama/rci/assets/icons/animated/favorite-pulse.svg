@@ -1,0 +1,58 @@
+<svg id="fave-pulse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+	<style type="text/css">
+
+		#fave-pulse .fave-off {
+			transform-origin: center;
+			animation: fave-pulse-pop .2s forwards;
+		}
+
+		#fave-pulse .fave-on {
+			fill:red!important;
+			transform-origin: center;
+			transform: scale(0);
+			animation: fave-pulse-shrink .4s forwards;
+		}
+
+		#fave-pulse.ani-on .fave-off {
+			animation: fave-pulse-shrink .2s forwards;
+		}
+
+		#fave-pulse.ani-on .fave-on {
+			animation: fave-pulse-pop .2s forwards;
+		}
+
+		@keyframes fave-pulse-shrink {
+			0% {
+				transform: scale(1);
+			}
+
+			100% {
+				transform: scale(0);
+			}
+		}
+
+		@keyframes fave-pulse-pop {
+			0% {
+				transform: scale(0);
+			}
+
+			50% {
+				transform: scale(1.3);
+			}
+
+			100% {
+				transform: scale(1);
+			}
+		}
+	</style>
+	<g class="fave-off">
+		<path data-transparent="true" opacity=".405" d="M21,34.9L18.9,33C11.5,26.3,6.6,21.8,6.6,16.4c0-4.4,3.5-7.9,7.9-7.9c2.5,0,4.9,1.2,6.5,3c1.6-1.8,4-3,6.5-3
+		c4.4,0,7.9,3.5,7.9,7.9c0,5.4-4.9,9.9-12.3,16.6L21,34.9z" />
+		<path d="M33.3,8.5C29,5.6,23.8,6.9,21,10.2c-2.8-3.3-8-4.7-12.3-1.8C6.5,10,5.1,12.6,5,15.3
+		c-0.2,6.2,5.3,11.2,13.7,18.8l0.2,0.1c1.2,1.1,3.1,1.1,4.3,0l0.2-0.2c8.4-7.6,13.9-12.6,13.7-18.8C36.9,12.6,35.5,10,33.3,8.5
+		L33.3,8.5z M21.2,31.8L21,31.9l-0.2-0.2C13.2,24.9,8.2,20.3,8.2,15.7c0-3.2,2.4-5.6,5.6-5.6c2.5,0,4.9,1.6,5.7,3.8h3
+		c0.8-2.2,3.2-3.8,5.7-3.8c3.2,0,5.6,2.4,5.6,5.6C33.8,20.3,28.8,24.9,21.2,31.8z" />
+	</g>
+	<path class="fave-on" d="M23.1,34.3c-1.3,1.1-3,1.1-4.3,0l-0.2-0.2C10.3,26.6,4.8,21.6,5,15.4c0.2-2.7,1.4-5.3,3.7-6.9
+	c4.2-2.9,9.4-1.6,12.3,1.8c2.9-3.4,8-4.6,12.3-1.8c2.2,1.6,3.7,4.2,3.7,6.9c0.2,6.2-5.3,11.2-13.6,18.9H23.1z" />
+</svg>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <script src="./js/jquery/jquery-3.6.0.js"></script>
+      <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+      <script src="./js/slick/slick.js"></script>
+      <script src="./js/components/carousel.js"></script>
+      <script src="./js/components/ugc.js"></script>
+      <script src="./js/components/hero-banner.js"></script>
+      <script src="./js/components/platinum-benefit.js"></script>
+      <script src="./sampleData.json"></script>
+
+        <!-- <div class="gridcard-modal d-none">
+            <div class="tile-image pr-lg-3 pr-md-3 pb-3">
+                <img class="aspect ratio-5by7" src="https://dummyimage.com/4800x2700/000/5fe387.jpg" alt="Sample Card">
+                <div class="d-none explore position-absolute gradient-50"></div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <h3>
+                        California
+                    </h3>
+                    <div class="card-description">
+                        <div>
+                            <p class="pb-4 m-0">Enim eiusmod high life accusamus terry richardson ad squid. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="single-tile-btn">
+                        <div class="cta aem-btn-outline-primary">
+                            <a class="btn btn-outline-primary w-auto px-5 text-uppercase m-0" href="/content/panorama.html" aria-label="Florida : Resort Directory">Resort Directory</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>  -->
+
+        <div class="container platinum-benefits">
+            <div class="row m-0">
+                <div class="col-12 p-0">
+                    <div class="gridcard" data-toggle="modal" data-target="#newPage">
+                        <a href="javascript:void(0)" class="text-decoration-none" data-url="sample-modal.html" data-toggle="modal" data-target="#exampleModal">
+                        <div class="tile-image aspect ratio-4by3">
+                            <img src="https://www.rci.com/static/Resorts/Assets/DL30E01L.jpg" alt="Sample Card">
+                            <div class="d-none explore position-absolute gradient-50"></div>
+                        </div>
+                        <div class="card-body">
+                            <div>
+                                <h3>
+                                    Texas
+                                </h3>
+                                <div class="d-none card-description">
+                                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius...
+                                        <a class="btn-link sunset readmore" href="https://www.rci.com/static/images/content/_NAMER/all-inclusive/C64-S1-R_Spa.png">Read More</a></p>
+                                    <div class="d-none py-1 quad-resort">
+                                        <p>Cancun, Mexico</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </a> 
+                    </div> 
+                </div> 
+            </div>
+        </div>
+        
+
+        
+        <!-- modal          -->
+        <!-- <div class="modal fade modal-right dialog" id="newPage" tabindex="-1" role="dialog" aria-labelledby="newPage" aria-hidden="true">
+            <div class="modal-dialog dialog-box">
+                <div class="modal-content dialog-content">
+                    <div class="modal-header dialog-header"> 
+                        <button type="button" class="closeIcon close svg-fill-black float-right" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body dialog-body p-0">
+                        <div class="gridcard">
+                            <div class="tile-image pr-lg-3 pr-md-3 pb-3">
+                                <img class="aspect ratio-5by7" src="https://dummyimage.com/4800x2700/000/5fe387.jpg" alt="Sample Card">
+                                <div class="d-none explore position-absolute gradient-50"></div>
+                            </div>
+                            <div class="card-body">
+                                <div>
+                                    <h3 class="modal-title" id="newPage">
+                                        Florida
+                                    </h3>
+                                    <div class="card-description">
+                                        <div>
+                                            <p class="pb-4 m-0">Enim eiusmod high life accusamus terry richardson ad squid. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="single-tile-btn">
+                                        <div class="cta aem-btn-outline-primary">
+                                            <a class="btn btn-outline-primary w-auto px-5 text-uppercase m-0" href="/content/panorama.html" aria-label="Florida : Resort Directory">Resort Directory</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="modal fade modal-right dialog" id="exampleModal" tabindex="-1" role="dialog" data-url="" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog dialog-box" role="document">
+                <div class="modal-content dialog-content">
+                    <div class="modal-header dialog-header">
+                        <button type="button" class="closeIcon close svg-fill-black float-right" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body dialog-body p-0"></div>
+                </div>
+            </div>
+        </div>
+
+   </body>
+</html>
+
+

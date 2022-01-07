@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="./js/jquery/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/slick/slick.js"></script>
+    <script src="./js/components/key-code.js"></script>
+    <script src="./js/components/footer.js"></script>
+    <script src="./js/components/header.js"></script>
+
+
+    <header class="aem-nav-container" role="banner">
+        <div class="main-nav navbar-position">
+            <div class="nav-bar navbar-expand navbar p-0">
+                <div class="container-fluid position-relative d-block">
+                    <div class="row mx-0">
+                        <div class="col-5 px-4 py-4 px-xl-5 py-xl-3">
+                            <a class="skiptocontent" href="#maincontent">Skip to main content</a>
+                            <a class="logo ml-2" href="https://www.rci.com">
+                                <img alt="rci logo" class="header-logo"
+                                    src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/rci%20image%20logo.svg">
+                            </a>
+                        </div>
+
+                        <div class="nav-backdrop d-none"></div>
+
+                        <div class="col-7 d-flex justify-content-end px-4 py-4 px-xl-5 py-xl-3 header-gradient">
+
+                            <div class="d-flex d-xl-none align-items-center signin-link">
+                                SIGN IN
+                                <button aria-expanded="false" aria-haspopup="true"
+                                    class="btn btn-ghost w-auto d-xl-none hamburgerIcon my-2 mr-0 ml-2 p-0 align-baseline">
+                                    <svg class="svg-fill-black" height="40" id="icon-menuBtn" viewBox="0 0 40 40"
+                                        width="40">
+                                        <rect class="menu-btm" height="4" width="24" x="8" y="28"></rect>
+                                        <rect class="menu-mid" height="4" width="24" x="8" y="18"></rect>
+                                        <rect class="menu-top" height="4" width="24" x="8" y="8"></rect>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="header-navbar-links d-xl-inline-flex justify-content-end ml-auto">
+                                <div
+                                    class="d-flex d-xl-none p-3 text-xl-center border-bottom font-weight-bolder justify-content-between nav-close-menu bg-dark">
+                                    <span class="dropdown-text">WELCOME</span>
+                                    <button aria-label="close" class="bg-transparent border-0 nav-close-menu p-0">
+                                        <svg class="svg-fill-black ds-svg-icon d-block d-xl-none" height="24"
+                                            viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                            <polygon fill="#FFF"
+                                                points="19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12">
+                                            </polygon>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <nav aria-label="RCI main navigation" class="d-block d-xl-flex position-relative">
+                                    <div class="nav-menu locale-selector p-2 p-xl-0 d-none d-xl-block nav-item ">
+                                        <a href="#" class="d-block flag-toggle w-100" aria-haspopup="true"
+                                            aria-expanded="false"
+                                            aria-label="locale selector: Selected language: United States - English">
+                                            <img class="nav-menu-icon mr-1 language-flag" alt="en_US"
+                                                src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/UnitedStates.png"
+                                                aria-hidden="true">
+                                            <span class="d-inline-block d-xl-none">
+                                                United States - English
+                                            </span>
+                                            <span class="nav-menu-arrow float-right">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24">
+                                                    <polygon fill="#FFF" fill-rule="evenodd"
+                                                        points="7.41 8 12 12.945 16.59 8 18 9.522 12 16 6 9.522">
+                                                    </polygon>
+                                                </svg>
+                                            </span>
+                                        </a>
+
+                                        <div class="dropdown-menu locale-menu ml-2 ml-xl-0 pb-0">
+                                            <div class="border-bottom-responsive nav-tabs p-2 selected-language">
+                                                <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/UnitedStates.png"
+                                                    alt="en_US" class="language-flag mb-1" aria-hidden="true">
+                                                <span class="text-black ml-2 font-weight-bold">
+                                                    United States - English
+                                                </span>
+                                            </div>
+
+                                            <ul class="language-options overflow-auto pt-2 pr-5 mb-0 list-unstyled"
+                                                role="menu">
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/UnitedStates.png"
+                                                        alt="en_US" class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/us/en/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        United States - English
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/UnitedKingdom.png"
+                                                        alt="en_GB" class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/gb/en/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        United Kingdom - English
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Brasil.png" alt="es_BZ"
+                                                        class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/bz/es.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Brazil - Español
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Africa.png" alt="en_ZA"
+                                                        class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/za/en.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Africa - English
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Argentina.png"
+                                                        alt="es_AR" class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/ar/es/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Argentina - Español
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Asia.png" alt="en_SG"
+                                                        class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/sg/en/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Asia - English
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Bolivia.png" alt="es_BO"
+                                                        class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/bo/es/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Bolivia - Español
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled p-2 p-xl-0 m-0 menubar nav-item d-xl-flex d-block"
+                                        role="menubar">
+                                        <li class="nav-menu d-block" role="menuitem">
+                                            <a aria-expanded="false" aria-haspopup="true"
+                                                class="nav-menu-link menu-arrow-triangle d-block" href="#">
+                                                <img class="nav-menu-icon d-xl-none mr-1"
+                                                    src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/about-rci-icon-new.svg">
+                                                About
+                                                <span class="nav-menu-arrow float-right"><svg height="24"
+                                                        viewBox="0 0 24 24" width="24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <polygon fill="#FFF" fill-rule="evenodd"
+                                                            points="7.41 8 12 12.945 16.59 8 18 9.522 12 16 6 9.522">
+                                                        </polygon>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <section
+                                                class="navbar-dropdown container-fluid d-none sub-menu-container d-xl-block">
+                                                <div class="row">
+                                                    <div class="col-12 d-xl-none mobile-close-header p-0">
+                                                        <div
+                                                            class="p-3 text-xl-center btn border-bottom justify-content-between nav-close-menu bg-dark mobile-close-banner">
+                                                            <span class="px-2"></span>
+                                                            <button aria-label="close"
+                                                                class="bg-transparent border-0 nav-close-menu">
+                                                                <svg class="svg-fill-black ds-svg-icon d-block"
+                                                                    height="24" viewBox="0 0 24 24" width="24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <polygon fill="#FFF"
+                                                                        points="19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12">
+                                                                    </polygon>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+
+                                                        <button aria-label="close"
+                                                            class="rounded-circle close nav-close-icon position-fixed d-none d-xl-none nav-close-menu">
+                                                            <span class="m-auto d-flex">
+                                                                <svg class="svg-fill-black ds-svg-icon d-block d-xl-none"
+                                                                    height="24" viewBox="0 0 24 24" width="24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <polygon fill="#FFF"
+                                                                        points="19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12">
+                                                                    </polygon>
+                                                                </svg>
+                                                            </span>
+                                                        </button>
+                                                        <div
+                                                            class="d-flex p-3 text-xl-center border-bottom justify-content-between font-weight-bolder">
+                                                            <button
+                                                                class="mainmenu__button d-flex w-100 bg-transparent border-0 p-0">
+                                                                <svg class="svg-fill-black ds-svg-icon d-block"
+                                                                    height="24" viewBox="0 0 24 24" width="24">
+                                                                    <path
+                                                                        d="M12.2682816,18.8888729 L12.8942212,18.2629024 C13.0423547,18.1147689 13.0423547,17.8745691 12.8942212,17.7263739 L7.98979256,12.8219761 L18.7841174,12.8219761 C18.9936284,12.8219761 19.1634972,12.6521073 19.1634972,12.4425963 L19.1634972,11.5573767 C19.1634972,11.3478657 18.9936284,11.1779969 18.7841174,11.1779969 L7.98979256,11.1779969 L12.8942212,6.27356824 C13.0423547,6.12540388 13.0423547,5.8852041 12.8942212,5.73703974 L12.2682816,5.11110012 C12.1201173,4.96296663 11.8799175,4.96296663 11.7317222,5.11110012 L5.11110012,11.7317222 C4.96296663,11.8798866 4.96296663,12.1200864 5.11110012,12.2682816 L11.7317222,18.8889037 C11.8798866,19.0370372 12.1200864,19.0370372 12.2682816,18.8888729 Z"
+                                                                        fill="#FFF" fill-rule="evenodd">
+                                                                    </path>
+                                                                </svg>
+                                                                <span class="dropdown-text px-2">MAIN MENU</span>
+                                                            </button>
+
+                                                            <button aria-label="close"
+                                                                class="nav-close-menu mobile-close-icon bg-transparent border-0 p-0">
+                                                                <svg class="svg-fill-black ds-svg-icon d-block d-xl-none"
+                                                                    height="24" viewBox="0 0 24 24" width="24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <polygon fill="#FFF"
+                                                                        points="19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12">
+                                                                    </polygon>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <aside class="col-12 col-xl-3 p-3 p-xl-5">
+                                                        <div class="d-xl-none">
+                                                            <h6 class="font-weight-bolder text-uppercase">
+                                                                About</h6>
+                                                        </div>
+                                                        <ul aria-label="About" class="sub-menu-list mb-0" role="menu">
+
+                                                            <li>
+                                                                <a class="d-block" role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/about-rci-icon-new.svg">
+                                                                    About RCI</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/become-an-rci-member/become-an-rci-member.page?track1=Navigation_Prelogin_Footer&amp;track2=Join&amp;track3=Text:Become_a_Member"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/become-a-member%20new.svg">
+                                                                    Become a Member 123</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/explore-rci/get-started.page?track1=Navigation_Prelogin_Header&amp;track2=About&amp;track3=Text:Get_Started_With_RCI"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/get-started.svg">
+                                                                    Get Started</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/landing/community/member-stories.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:Member_Stories"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/member-stories-icon-new.svg">
+                                                                    Member Stories</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/RCITravelers.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:Travel_Diaries"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/travel-diaries-icon-new.svg">
+                                                                    Travel Diaries</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/RCITravelers.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:Travel_Diaries"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/travel-diaries-icon-new.svg">
+                                                                    Travel Diaries</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://qab.rci.com/pre-rci-en_US/discover/endless-vacation-access.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:RCI_Magazine"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1">
+                                                                    Endless Vacation Magazine</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/landing/community/member-stories.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:Member_Stories"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/member-stories-icon-new.svg">
+                                                                    Member Stories</a>
+                                                            </li>
+
+
+                                                            <li class="d-xl-none">
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/explore-rci/our-exchange-programs/our-exchange-programs-index.page?track1=Navigation_Prelogin_Footer&amp;track2=Join&amp;track3=Text:Our_Exchange_Programs"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/our-exchange-program%20new.svg">
+                                                                    Our Exchange Programs</a>
+                                                            </li>
+
+                                                            <li class="d-xl-none">
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/landing/elite-rewards.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:Elite_Rewards"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/elite-rewards.svg">
+                                                                    RCI Mastercard®</a>
+                                                            </li>
+
+                                                            <li class="d-xl-none">
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/rci-magazine.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:RCI_Magazine"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/rci-magazine%20new.svg">
+                                                                    RCI Magazine</a>
+                                                            </li>
+                                                        </ul>
+                                                    </aside>
+                                                    <div class="col-xl-9 container p-5 d-none d-xl-block">
+                                                        <div class="row">
+                                                            <div class="col-xl-4 px-3 ">
+                                                                <a class="sub-menu-promo-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/explore-rci/our-exchange-programs/our-exchange-programs-index.page?track1=Navigation_Prelogin_Footer&amp;track2=Join&amp;track3=Text:Our_Exchange_Programs">
+                                                                    <figure class="aspect ratio-4by3 d-none d-xl-block">
+                                                                        <img alt=""
+                                                                            src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/263x197-our_exchange_program.jpg">
+                                                                        <figcaption class="sub-menu-promo-block position-absolute p-2 bg-white
+                            w-100 text-center font-weight-bolder text-uppercase text-black" role="group">
+                                                                            Our Exchange Programs
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="col-xl-4 px-3 ">
+                                                                <a class="sub-menu-promo-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/landing/elite-rewards.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:Elite_Rewards">
+                                                                    <figure class="aspect ratio-4by3 d-none d-xl-block">
+                                                                        <img alt=""
+                                                                            src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/263x197-elite-rewards.jpg">
+                                                                        <figcaption class="sub-menu-promo-block position-absolute p-2 bg-white
+                            w-100 text-center font-weight-bolder text-uppercase text-black" role="group">
+                                                                            RCI Mastercard®
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="col-xl-4 px-3 ">
+                                                                <a class="sub-menu-promo-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/rci-magazine.page?track1=Navigation_Prelogin_Footer&amp;track2=About_RCI&amp;track3=Text:RCI_Magazine">
+                                                                    <figure class="aspect ratio-4by3 d-none d-xl-block">
+                                                                        <img alt=""
+                                                                            src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/263x197-RCI-Magazine.jpg">
+                                                                        <figcaption class="sub-menu-promo-block position-absolute p-2 bg-white
+                            w-100 text-center font-weight-bolder text-uppercase text-black" role="group">
+                                                                            RCI Magazine
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </li>
+                                        <li class="nav-menu d-block" role="menuitem">
+                                            <a aria-expanded="false" aria-haspopup="true"
+                                                class="nav-menu-link menu-arrow-triangle d-block" href="#">
+                                                <img class="nav-menu-icon d-xl-none mr-1"
+                                                    src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/resorts-offers%20new.svg">
+                                                RESORTS &amp; OFFERS
+                                                <span class="nav-menu-arrow float-right"><svg height="24"
+                                                        viewBox="0 0 24 24" width="24"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <polygon fill="#FFF" fill-rule="evenodd"
+                                                            points="7.41 8 12 12.945 16.59 8 18 9.522 12 16 6 9.522">
+                                                        </polygon>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <section
+                                                class="navbar-dropdown container-fluid d-none sub-menu-container d-xl-block">
+                                                <div class="row">
+                                                    <div class="col-12 d-xl-none mobile-close-header p-0">
+                                                        <div
+                                                            class="p-3 text-xl-center btn border-bottom justify-content-between nav-close-menu bg-dark mobile-close-banner">
+                                                            <span class="px-2"></span>
+                                                            <button aria-label="close"
+                                                                class="bg-transparent border-0 nav-close-menu">
+                                                                <svg class="svg-fill-black ds-svg-icon d-block"
+                                                                    height="24" viewBox="0 0 24 24" width="24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <polygon fill="#FFF"
+                                                                        points="19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12">
+                                                                    </polygon>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+
+                                                        <button aria-label="close"
+                                                            class="rounded-circle close nav-close-icon position-fixed d-none d-xl-none nav-close-menu">
+                                                            <span class="m-auto d-flex">
+                                                                <svg class="svg-fill-black ds-svg-icon d-block d-xl-none"
+                                                                    height="24" viewBox="0 0 24 24" width="24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <polygon fill="#FFF"
+                                                                        points="19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12">
+                                                                    </polygon>
+                                                                </svg>
+                                                            </span>
+                                                        </button>
+                                                        <div
+                                                            class="d-flex p-3 text-xl-center border-bottom justify-content-between font-weight-bolder">
+                                                            <button
+                                                                class="mainmenu__button d-flex w-100 bg-transparent border-0 p-0">
+                                                                <svg class="svg-fill-black ds-svg-icon d-block"
+                                                                    height="24" viewBox="0 0 24 24" width="24">
+                                                                    <path
+                                                                        d="M12.2682816,18.8888729 L12.8942212,18.2629024 C13.0423547,18.1147689 13.0423547,17.8745691 12.8942212,17.7263739 L7.98979256,12.8219761 L18.7841174,12.8219761 C18.9936284,12.8219761 19.1634972,12.6521073 19.1634972,12.4425963 L19.1634972,11.5573767 C19.1634972,11.3478657 18.9936284,11.1779969 18.7841174,11.1779969 L7.98979256,11.1779969 L12.8942212,6.27356824 C13.0423547,6.12540388 13.0423547,5.8852041 12.8942212,5.73703974 L12.2682816,5.11110012 C12.1201173,4.96296663 11.8799175,4.96296663 11.7317222,5.11110012 L5.11110012,11.7317222 C4.96296663,11.8798866 4.96296663,12.1200864 5.11110012,12.2682816 L11.7317222,18.8889037 C11.8798866,19.0370372 12.1200864,19.0370372 12.2682816,18.8888729 Z"
+                                                                        fill="#FFF" fill-rule="evenodd">
+                                                                    </path>
+                                                                </svg>
+                                                                <span class="dropdown-text px-2">MAIN MENU</span>
+                                                            </button>
+
+                                                            <button aria-label="close"
+                                                                class="nav-close-menu mobile-close-icon bg-transparent border-0 p-0">
+                                                                <svg class="svg-fill-black ds-svg-icon d-block d-xl-none"
+                                                                    height="24" viewBox="0 0 24 24" width="24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <polygon fill="#FFF"
+                                                                        points="19 6.4 17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12">
+                                                                    </polygon>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <aside class="col-12 col-xl-3 p-3 p-xl-5">
+                                                        <div class="d-xl-none">
+                                                            <h6 class="font-weight-bolder text-uppercase">
+                                                                RESORTS &amp; OFFERS</h6>
+                                                        </div>
+                                                        <ul aria-label="RESORTS &amp; OFFERS" class="sub-menu-list mb-0"
+                                                            role="menu">
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://qab.rci.com/pre-rci-en_US/special-offers/special-offers-index.page?track1=Navigation_Prelogin_Header&amp;track2=Resorts_and_Offers&amp;track3=Text:Special_Offers"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/special-offers-icon-new.svg">
+                                                                    Special Offers</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/vacation-ideas/vacation-ideas-index.page?track1=Navigation_Prelogin&amp;track2=Resorts_and_Offers&amp;track3=Text:Vacation_Ideas"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/vacation-ideas-icon-new.svg">
+                                                                    Vacation Ideas</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/become-an-rci-member/become-an-rci-member.page?track1=Navigation_Prelogin_Footer&amp;track2=Join&amp;track3=Text:Become_a_Member"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/featured-destinations.svg">
+                                                                    Featured Destinations</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/become-an-rci-member/become-an-rci-member.page?track1=Navigation_Prelogin_Footer&amp;track2=Join&amp;track3=Text:Become_a_Member"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/explore-all-interests.svg">
+                                                                    Explore All Interests</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://qab.rci.com/pre-rci-en_US/vacation-ideas/interests/all-inclusive.page?track1=Navigation_Prelogin_Header&amp;track2=Resorts_and_Offers&amp;track3=Text:All-Inclusive_Vacations"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/all-inclusive-icon-new.svg">
+                                                                    All Inclusive Vacation</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/landing/group-reservations.page?track1=Navigation_Prelogin_Header&amp;track2=Resorts_and_Offers&amp;track3=Text:Group_Reservations"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/group-reservation-icon-new.svg">
+                                                                    Group Reservations</a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="d-block"
+                                                                    href="https://www.rci.com/pre-rci-en_US/landing/group-reservations.page?track1=Navigation_Prelogin_Header&amp;track2=Resorts_and_Offers&amp;track3=Text:Group_Reservations"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/group-reservation-icon-new.svg">
+                                                                    Group Reservations</a>
+                                                            </li>
+                                                            <li class="d-xl-none">
+                                                                <a class="d-block"
+                                                                    href="https://qab.rci.com/pre-rci-en_US/explore-rci/rci-travel.page?track1=Navigation_Prelogin_Header&amp;track2=Resorts_and_Offers&amp;track3=Image:RCI_Travel"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/header/rci-travel-icon.svg">
+                                                                    RCI Travel</a>
+                                                            </li>
+                                                            <li class="d-xl-none">
+                                                                <a class="d-block"
+                                                                    href="https://qab.rci.com/resort-directory/landing?track1=Navigation_Prelogin_Header&amp;track2=Resorts_and_Offers&amp;track3=Image:Resort_Directory"
+                                                                    role="menuitem">
+                                                                    <img class="nav-menu-icon d-xl-none mr-1"
+                                                                        src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/resort-directory-icon-new.svg">
+                                                                    Resort Directory</a>
+                                                            </li>
+                                                        </ul>
+                                                    </aside>
+                                                    <div class="col-xl-9 container p-5 d-none d-xl-block">
+                                                        <div class="row">
+                                                            <div class="col-xl-4 px-3 ">
+                                                                <a class="sub-menu-promo-block"
+                                                                    href="https://qab.rci.com/pre-rci-en_US/explore-rci/rci-travel.page?track1=Navigation_Prelogin_Header&amp;track2=Resorts_and_Offers&amp;track3=Image:RCI_Travel">
+                                                                    <figure class="aspect ratio-4by3 d-none d-xl-block">
+                                                                        <img alt=""
+                                                                            src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/263x197-rci_travel.jpg">
+                                                                        <figcaption class="sub-menu-promo-block position-absolute p-2 bg-white
+                            w-100 text-center font-weight-bolder text-uppercase text-black" role="group">
+                                                                            RCI Travel
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="col-xl-4 px-3 ">
+                                                                <a class="sub-menu-promo-block"
+                                                                    href="https://qab.rci.com/resort-directory/landing?track1=Navigation_Prelogin_Header&amp;track2=Resorts_and_Offers&amp;track3=Image:Resort_Directory">
+                                                                    <figure class="aspect ratio-4by3 d-none d-xl-block">
+                                                                        <img alt=""
+                                                                            src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/263x197-resort_directory.jpg">
+                                                                        <figcaption class="sub-menu-promo-block position-absolute p-2 bg-white
+                            w-100 text-center font-weight-bolder text-uppercase text-black" role="group">
+                                                                            Resort Directory
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </li>
+                                    </ul>
+                                    <div class="d-block d-xl-none border-bottom p-3 font-weight-bold mobile-signin">
+                                        <a class="link-u text-black d-block pb-3"
+                                            href="https://www.rci.com/pre-rci-en_US/navigation/campaign-bypass.page"
+                                            title="SIGN IN" tabindex="-1">SIGN IN</a>
+                                        <a class="link-u text-black d-block" href="https://www.rci.com/registration"
+                                            title="Register" tabindex="-1">REGISTER</a>
+                                    </div>
+                                    <div class="ml-md-3 d-none d-xl-block position-relative nav-item">
+                                        <button aria-expanded="false" aria-haspopup="true"
+                                            class="btn prelogin-signin-btn aem-btn-primary btn-primary" tabindex="0"
+                                            type="button">SIGN IN OR REGISTER
+                                        </button>
+                                        <div aria-label="signin-collapsible-toggle"
+                                            class="notification-container position-absolute d-none locale mt-3"
+                                            role="menu">
+                                            <div class="d-block mx-5 my-4">
+                                                <h3 class="text-center font-weight-bolder mb-3">Sign in to your account
+                                                </h3>
+                                                <form action="#" class="form" id="rciSignInForm" method="post">
+                                                    <div class="form-group">
+                                                        <input autocapitalize="off" autocomplete="off" autocorrect="off"
+                                                            class="form-control" id="username" name="username"
+                                                            placeholder="Username" tabindex="0" type="text">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input autocapitalize="off" autocomplete="off" autocorrect="off"
+                                                            class="form-control" id="password" name="password"
+                                                            placeholder="Password" tabindex="0" type="password">
+                                                    </div>
+                                                    <div class="form-check pl-4 mb-3">
+                                                        <input aria-checked="false" class="form-check-input"
+                                                            id="rememberpw" type="checkbox">
+                                                        <label class="form-check-label caption" for="rememberpw"
+                                                            title="Remember me">Remember me on this device</label>
+                                                    </div>
+                                                    <button
+                                                        class="btn font-weight-bolder mb-4 aem-btn-primary btn-primary"
+                                                        id="rciSignInBtn" tabindex="0" type="button">SIGN IN
+                                                    </button>
+                                                </form>
+                                                <div class="font-weight-bolder text-center mb-3">
+                                                    <a class="link-u" href="#" tabindex="0">Forgot Username or
+                                                        Password?</a>
+                                                </div>
+                                                <div class="font-weight-bolder text-center">
+                                                    <span>
+                                                        New to RCI?
+                                                        <a class="link-u text-uppercase ml-1" href="#" tabindex="0">
+                                                            REGISTER
+                                                        </a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="nav-menu locale-selector p-2 p-xl-0 d-block d-xl-none nav-item locale-selector-mobile">
+                                        <a href="#" class="d-block flag-toggle w-100" aria-haspopup="true"
+                                            aria-expanded="false"
+                                            aria-label="locale selector: Selected language: United States - English">
+                                            <img class="nav-menu-icon mr-1 language-flag" alt="en_US"
+                                                src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/UnitedStates.png"
+                                                aria-hidden="true">
+                                            <span class="d-inline-block d-xl-none">
+                                                United States - English
+                                            </span>
+                                            <span class="nav-menu-arrow float-right">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24">
+                                                    <polygon fill="#FFF" fill-rule="evenodd"
+                                                        points="7.41 8 12 12.945 16.59 8 18 9.522 12 16 6 9.522">
+                                                    </polygon>
+                                                </svg>
+                                            </span>
+                                        </a>
+
+                                        <div class="dropdown-menu locale-menu ml-2 ml-xl-0 pb-0">
+                                            <div class="border-bottom-responsive nav-tabs p-2 selected-language">
+                                                <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/UnitedStates.png"
+                                                    alt="en_US" class="language-flag mb-1" aria-hidden="true">
+                                                <span class="text-black ml-2 font-weight-bold">
+                                                    United States - English
+                                                </span>
+                                            </div>
+
+                                            <ul class="language-options overflow-auto pt-2 pr-5 mb-0 list-unstyled"
+                                                role="menu">
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/UnitedStates.png"
+                                                        alt="en_US" class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/us/en/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        United States - English
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/UnitedKingdom.png"
+                                                        alt="en_GB" class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/gb/en/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        United Kingdom - English
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Brasil.png" alt="es_BZ"
+                                                        class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/bz/es.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Brazil - Español
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Africa.png" alt="en_ZA"
+                                                        class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/za/en.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Africa - English
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Argentina.png"
+                                                        alt="es_AR" class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/ar/es/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Argentina - Español
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Asia.png" alt="en_SG"
+                                                        class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/sg/en/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Asia - English
+                                                    </a>
+                                                </li>
+
+                                                <li class="p-2">
+                                                    <img src="https://publish-p46802-e236162.adobeaemcloud.com/content/dam/panorama/countryflag/Bolivia.png" alt="es_BO"
+                                                        class="language-flag mb-1" aria-hidden="true">
+                                                    <a href="https://publish-p46802-e236162.adobeaemcloud.com/content/panorama/rci/pre-rci/bo/es/home.html"
+                                                        class="text-black btn-link text-decoration-none ml-2"
+                                                        role="menuitem">
+                                                        Bolivia - Español
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+// Image thumbnails
+
+$thumbnail-padding: 0.25rem !default;
+$thumbnail-bg: $body-bg !default;
+$thumbnail-border-width: $border-width !default;
+$thumbnail-border-color: $gray-300 !default;
+$thumbnail-border-radius: $border-radius !default;
+$thumbnail-box-shadow: 0 1px 2px rgba($black, 0.075) !default;
+
+//Missing Image
+$mi-icon: url("../../../core/assets/icons/system/mi.svg") !default;
+$mi-w-max: auto !default;
+$mi-h-max: auto !default;
+
+$ph-icon: url("") !default;
+$ph-w-max: auto !default;
+$ph-h-max: 70% !default;

@@ -1,0 +1,84 @@
+// stylelint-disable declaration-no-important
+
+@each $color, $value in $theme-colors {
+  @include bg-variant(".bg-#{$color}", $value);
+}
+
+@each $color, $value in $bg-colors {
+  @include bg-variant(".bg-#{$color}", $value);
+}
+
+@each $color, $value in $grays {
+  @include bg-variant(".bg-gray-#{$color}", $value);
+}
+
+@if $enable-gradients {
+  @each $color, $value in $theme-colors {
+    @include bg-gradient-variant(".bg-gradient-#{$color}", $value);
+  }
+
+  @each $color, $value in $bg-colors {
+    @include bg-gradient-variant(".bg-gradient-#{$color}", $value);
+  }
+
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.opacity-25 {
+  opacity: .25;
+}
+
+.opacity-30 {
+  opacity: .30;
+}
+
+.opacity-50 {
+  opacity: .50;
+}
+
+.opacity-75 {
+  opacity: .75;
+}
+
+.opacity-80 {
+  opacity: .80;
+}
+
+.gradient-50 {
+  background-image: linear-gradient( rgba(255,0,0,0) 50%, rgba($primary, 1));
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-tl {
+  background-position: left top;
+}
+
+.bg-tc {
+  background-position: center top;
+}
+
+.bg-tr {
+  background-position:  right top;
+}
+
+.bg-bl {
+  background-position: left bottom;
+}
+
+.bg-bc {
+  background-position: center bottom;
+}
+
+.bg-br {
+  background-position:  right bottom;
+}

@@ -1,0 +1,79 @@
+// Cards
+
+$card-spacer-y:                     .5rem;
+$card-spacer-x:                     .5rem;
+$card-border-width:                 $border-width;
+$card-border-radius:                $border-radius;
+$card-border-color:                 $gray-200;
+$card-border-color-hover:           $priority;
+$card-inner-border-radius:          calc(#{$card-border-radius} - #{$card-border-width});
+$card-cap-bg:                       rgba($black, .03);
+$card-cap-color:                    null;
+$card-color:                        null;
+$card-bg:                           $white;
+
+$card-img-overlay-padding:          1.25rem;
+
+$card-group-margin:                 $grid-gutter-width / 2;
+$card-deck-margin:                  $card-group-margin;
+
+$card-columns-count:                3;
+$card-columns-gap:                  1.25rem;
+$card-columns-margin:               $card-spacer-y;
+
+//Resort Card (Product)
+
+$resort-card-width-dt: 23%; //Must use percentage value.
+$resort-card-margin: 1rem * 0.5; 
+$resort-card-margin-bottom: 1rem;
+$resort-card-padding: 1rem * 0.5;
+$resort-card-border-radius: 0px;
+$resort-card-border-width: $card-border-width;
+$resort-card-border-color: $card-border-color;
+$resort-card-bg: $card-bg;
+$resort-card-border-color-hover: $priority;
+$resort-card-hover-shadow: $shadow4;
+
+$resort-card-image-height: 164px;
+$resort-card-bg-color: $background-dark;
+
+$resort-card-title-font: $font-weight-bold;
+$resort-card-title-size: 1rem;
+$resort-card-title-lh: 1.125rem;
+$resort-card-title-margin: 0;
+$resort-card-title-lines: $resort-card-title-lh * 2;
+
+$resort-card-location-font: $font-weight-normal;
+$resort-card-location-size: 0.875rem;
+$resort-card-location-lh: 1.5rem;
+$resort-card-location-margin: 0;
+$resort-card-location-color: $text-muted;
+
+$resort-card-line-item-size: 0.875rem;
+$resort-card-line-item-font: $font-weight-normal;
+$resort-card-line-item-margin: 0px;
+$resort-card-line-item-padding: 4px;
+$resort-card-line-item-height: 1rem;
+$resort-card-line-item-icon-spacer: 8px;
+$resort-card-line-item-color: $text-muted;
+$resort-card-line-item-icon-color: $gray-400;
+
+$resort-card-id-font: $font-weight-bolder;
+
+$resort-card-price-font: $font-weight-bold;
+$resort-card-price-size: 1rem;
+$resort-card-price-lh: 1.125rem;
+$resort-card-price-margin: 0;
+
+$resort-card-animation-timing: .3s;
+
+$resort-card-rci-rating-width: 32px;
+
+$resort-card-divider-width: 2px;
+$resort-card-divider-color: $gray-200;
+$resort-card-divider-spacer: 8px;
+
+//Favorite Resort Card Variant Styles
+$resort-card-favorite-height: 360px;
+$resort-name-font-weight:$font-weight-bold;
+$resort-name-font-family:$font-family-sans-serif-semibold;

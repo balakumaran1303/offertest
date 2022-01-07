@@ -1,0 +1,16 @@
+// Token Variables
+// design_system_base/tokens/
+// Global Options
+// Typography
+// Colors
+// Global Options
+@import "../tokens/options";
+// 2. Colors
+@import '../tokens/colors/colors-bg';
+@import '../tokens/colors/colors-ui';
+@import '../tokens/colors/colors-simple-components';
+//Typography Tokens
+// 1. English
+// @import "../tokens/typography/en/fonts";
+@import "../tokens/typography/en/en";
+//@import "../tokens/typography/jpn/japanese";

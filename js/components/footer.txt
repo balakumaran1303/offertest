@@ -1,0 +1,141 @@
+$(document).ready(() => {
+    footerAria();
+    $('.footer-title').on('click', function(e) {
+        if ($(window).width() < 991) {
+            accordian($(this));
+        }
+    });
+});
+
+$(window).on('resize', function() {
+    footerAria();
+}); 
+
+function footerAria() {
+    $('.footer-title').attr("aria-expanded", "true");
+    if ($(window).width() < 991) {
+        $('.footer-title').attr("aria-expanded", "false");
+    }
+}
+
+
+function accordian(_this) {
+    if ($(_this).parent().hasClass('open')) {
+        $(_this).parent().children('.footer-title').attr("aria-expanded", "false");
+    } else {
+        $('.footer-title').attr("aria-expanded", "false");
+        $('.links-sec').children('.footer-list-group').removeClass('open');
+        $(_this).parent().children('.footer-title').attr("aria-expanded", "true");
+    }
+    $(_this).parent().toggleClass('open');
+}
+
+
+function keyCodes() {
+    this.tab = 9;
+    this.enter = 13;
+    this.up = 38;
+    this.down = 40;
+}
+
+
+// Tabs nav links
+$(document).on('keydown', '.links-sec [tabindex="0"]', function(e) {
+    var keys = new keyCodes();
+    if ($(window).width() < 991) {
+        var currentBtn = $(this),
+            currentCardWrapper = currentBtn.parents('.footer-list-group');
+
+        function next() {
+            $(currentCardWrapper.next().find('[tabindex="0"]').focus().attr('data-target'));
+        }
+
+        function prev() {
+            $(currentCardWrapper.prev().find('[tabindex="0"]').focus().attr('data-target'));
+        }
+
+        if (e.which === keys.down) {
+            next();
+        } else if (e.which === keys.up) {
+            prev();
+        } else if (e.which === keys.enter) {
+            accordian(currentCardWrapper.children('.footer-title'));
+            currentCardWrapper.children(".footer-listing").removeClass('d-none')
+        } else if (e.which === keys.tab) {
+            if (currentCardWrapper.hasClass('open')) {
+                $('.footer-list-group').children(".footer-listing").addClass('d-none');
+                currentCardWrapper.children(".footer-listing").removeClass('d-none');
+            } else {
+                currentCardWrapper.children(".footer-listing").addClass('d-none');
+            }
+        }
+    }
+});
+
+
+$(document).ready(() => {
+    footerOnClick();
+});
+
+$(window).on('resize', function() {
+    footerOnClick();
+});
+
+function footerOnClick() {
+    $('.footer-title').attr("aria-expanded", "true");
+    if ($(window).width() < 991) {
+        $('.footer-title').attr("aria-expanded", "false");
+        $('.footer-title').on('click', function(e) {
+            accordian($(this));
+        });
+    }
+}
+
+
+function accordian(_this) {
+    if ($(_this).parent().hasClass('open')) {
+        $(_this).parent().children('.footer-title').attr("aria-expanded", "false");
+    } else {
+        $('.footer-title').attr("aria-expanded", "false");
+        $('.links-sec').children('.footer-list-group').removeClass('open');
+        $(_this).parent().children('.footer-title').attr("aria-expanded", "true");
+    }
+    $(_this).parent().toggleClass('open');
+}
+
+// Tabs nav links
+$(document).on('keydown', '.links-sec [tabindex="0"]', function(e) {
+    if ($(window).width() < 991) {
+        var currentBtn = $(this),
+            currentCardWrapper = currentBtn.parents('.footer-list-group');
+
+        function next() {
+            $(currentCardWrapper.next().find('[tabindex="0"]').focus().attr('data-target'));
+        }
+
+        function prev() {
+            $(currentCardWrapper.prev().find('[tabindex="0"]').focus().attr('data-target'));
+        }
+
+        switch (e.which) {
+            case keyCode.DOWN:
+                next();
+                break;
+            case keyCode.UP:
+                prev();
+                break;
+            case keyCode.RETURN:
+                accordian(currentCardWrapper.children('.footer-title'));
+                currentCardWrapper.children(".footer-listing").removeClass('d-none');
+                break;
+            case keyCode.TAB:
+                if (currentCardWrapper.hasClass('open')) {
+                    $('.footer-list-group').children(".footer-listing").addClass('d-none');
+                    currentCardWrapper.children(".footer-listing").removeClass('d-none');
+                } else {
+                    currentCardWrapper.children(".footer-listing").addClass('d-none');
+                }
+                break;
+        }
+    }
+});

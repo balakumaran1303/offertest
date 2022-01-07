@@ -1,0 +1,46 @@
+.offer-carousel {
+    .deals-banner {
+        @extend .pl-0,
+        .pr-0,
+        .pl-xl-2,
+        .pl-lg-2,
+        .pl-md-2,
+        .pr-xl-2,
+        .pr-lg-2,
+        .pr-md-2;
+        @include media-breakpoint-down(md) {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    .carousal-index {
+        top: 1%;
+        left: 2%;
+    }
+    .carousel-arrow {
+        @include media-breakpoint-down(md) {
+            width: 30px;
+            height: 30px;
+            top: 50%;
+        }
+    }
+    .slick-arrow.slick-disabled {
+        @extend .d-none;
+    }
+    .prev-button {
+        left: 0;
+        @extend .HamBurgerMenuDisplay;
+        @include media-breakpoint-down(md) {
+            left: 15px;
+        }
+    }
+    .next-button {
+        right: 0;
+        @include media-breakpoint-down(md) {
+            right: 15px;
+        }
+    }
+    .carousel-card {
+        @extend .d-none;
+    }
+}

@@ -1,0 +1,27 @@
+//Footer Text Styles
+$footer-text-color: $black;
+$footer-link-color: $black;
+$footer-update-color: $primary;
+
+$footer-headline-font-family:       $font-family-display;
+$footer-headline-size:               2rem !default;
+$footer-headline-line-height:        2rem;
+$footer-headline-size-mobile:        2rem !default;
+$footer-headline-line-height-mobile: 2rem;
+
+$footer-title-font-weight:       $font-weight-bolder;
+$footer-title-size:               1rem !default;
+$footer-title-line-height:        1.5rem;
+$footer-title-size-mobile:        1rem !default;
+$footer-title-line-height-mobile: 1.5rem;
+
+$footer-body-size:               0.875rem !default;
+$footer-body-line-height:        1.5rem;
+$footer-body-size-mobile:        1rem !default;
+$footer-body-line-height-mobile: 1.5rem;
+
+$footer-arrow-color: $black;
+
+$footer-arrow-up: str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' %3e%3cpolygon fill='#{$footer-arrow-color}' points='16.59 16 12 11.055 7.41 16 6 14.478 12 8 18 14.478' /%3e%3C/svg%3E"), "#", "%23");
+
+$footer-arrow-down: str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' %3e%3cpolygon fill='#{$footer-arrow-color}' points='7.41 8 12 12.945 16.59 8 18 9.522 12 16 6 9.522' /%3E%3C/svg%3E"), "#", "%23");

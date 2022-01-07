@@ -1,0 +1,235 @@
+//
+// Resort Card Component
+// Vertical Layout
+
+.resort-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  height: 100%;
+  overflow: hidden;
+  min-width: 0;
+  background-color: $resort-card-bg;
+  border: $resort-card-border-width solid $resort-card-border-color;
+  padding-bottom: $resort-card-padding;
+  margin: 0 0 $resort-card-margin-bottom;
+  border-radius: $resort-card-border-radius;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $resort-card-border-color-hover;
+    box-shadow: $resort-card-hover-shadow;
+  }
+
+  & .card-image {
+    width: 100%;
+    height: $resort-card-image-height;
+    position: relative;
+    overflow: hidden;
+    background-color:$resort-card-bg-color;
+  }
+
+  & .card-image:before {
+    content: '';
+    display: block;
+    padding-bottom: 71.42857%;
+  }
+
+  & .card-image>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: scale(1);
+    transition: $resort-card-animation-timing;
+    transition-timing-function: ease-out;
+  }
+
+  & .imgview-btn {
+    width: auto;
+    position: absolute;
+    bottom: $card-spacer-x;
+    left: $card-spacer-x;
+    background-color: $black;
+    opacity: 0;
+    transition: $resort-card-animation-timing ease-in-out;
+
+    &>img {
+      transform: scale(1);
+    }
+
+    &> svg {
+      width:24px;
+    }
+  }
+
+  & .favorite-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    background-color: transparent;
+
+    &> svg {
+      width:24px;
+    }
+  }
+
+  &:hover .card-image>img {
+    transition: $resort-card-animation-timing ease-in-out;
+    transform: scale(1.08);
+  }
+
+  &:hover .imgview-btn {
+    opacity: 1;
+    transition: $resort-card-animation-timing ease-in-out;
+  }
+
+  & .resort-info,
+  .resort-details {
+    padding: $resort-card-padding $resort-card-padding 0px;
+  }
+
+  & .resort-info {
+    flex: 1 0 auto;
+  }
+
+  //Content Styles
+
+  & .resort-title {
+    display: block;
+    height: $resort-card-title-lines;
+    font-family: $resort-card-title-font;
+    font-size: $resort-card-title-size;
+    line-height: $resort-card-title-lh;
+    margin: $resort-card-title-margin;
+    color: black;
+  }
+
+  & .resort-location {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: $resort-card-location-font;
+    font-size: $resort-card-location-size;
+    line-height: $resort-card-location-lh;
+    margin: $resort-card-location-margin;
+    color: $resort-card-location-color;
+  }
+
+  & .line-item {
+    display: block;
+    font-family: $resort-card-line-item-font;
+    padding: $resort-card-line-item-padding 0px;
+    line-height: $resort-card-line-item-size;
+    color: $resort-card-line-item-color;
+
+    & img,
+    svg,
+    use,
+    path,
+    g,
+    rect,
+    circle,
+    ellipse,
+    line,
+    polygon,
+    polyline {
+      width: $resort-card-line-item-height;
+      margin-right: $resort-card-line-item-icon-spacer;
+      display: inline-block;
+      vertical-align: top;
+      color: $resort-card-line-item-icon-color;
+      fill: $resort-card-line-item-icon-color !important;
+    }
+
+    & p,
+    a {
+      font-size: $resort-card-line-item-size;
+      line-height: $resort-card-line-item-height;
+      display: inline-block;
+      margin: 0px;
+      color: $resort-card-line-item-color;
+    }
+
+    & .id-num {
+      margin-left:.5rem;
+      font-family: $resort-card-id-font;
+    }
+  }
+
+  .rating-block {
+    display: flex;
+    flex-direction: row;
+
+    &>.rci-rating {
+      display: flex;
+      max-width: $resort-card-rci-rating-width;
+      overflow: hidden;
+
+      & > img {
+        max-width: $resort-card-rci-rating-width - $resort-card-divider-spacer;
+      }
+    }
+
+    &>.divider {
+      width: $resort-card-divider-width;
+      background-color: $resort-card-divider-color;
+      margin: 0px $resort-card-divider-spacer;
+    }
+
+    &>.review-block {
+      display: flex;
+      align-items: center;
+
+      & img {
+        margin-left: -8px;
+      }
+      & p {
+        padding:0;
+        margin:0px;
+        color: $resort-card-line-item-color;
+        font-size:14px;
+        font-family: $font-weight-bold;
+        display: inline-block;
+      }
+    }
+  }
+
+}
+
+
+//Favorite Resort Card Styles
+.resort-card-favorite,
+.resort-card-back {
+  height: $resort-card-favorite-height;
+}
+
+.resort-card-back {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: $background-dark;
+  transform: rotateY(180deg);
+  padding:$spacer;
+
+  & > .resort-name {
+    @include font-weight-type( $resort-name-font-weight, $resort-name-font-family);
+  }
+
+  &:hover {
+    box-shadow: $resort-card-hover-shadow;
+  }
+
+  & > p {
+    margin:0px;
+  }
+
+}

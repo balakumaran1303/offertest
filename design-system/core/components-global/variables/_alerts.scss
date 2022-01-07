@@ -1,0 +1,79 @@
+// Alerts
+//
+// Define alert colors, border radius, and padding.
+
+$alert-padding-y: 0.75rem !default;
+$alert-padding-x: 1.25rem !default;
+$alert-margin-bottom: 1rem !default;
+$alert-border-radius: $border-radius !default;
+$alert-link-font-weight: $font-weight-bold !default;
+$alert-border-width: $border-width !default;
+
+$alert-bg-level: 0 !default;
+$alert-border-level: -9 !default;
+$alert-color-level: 0 !default;
+
+//Alert Text
+$alert-headline-size: 1rem !default;
+$alert-headline-weight: bold !default;
+
+//Notification Styles
+$notification-border-width: 2px !default;
+$notification-border-radius: 4px !default;
+$notification-inline-border-width: 0px 0px 0px 4px !default;
+$notification-inline-padding: 1rem !default;
+$notification-banner-padding: 1rem !default;
+$notification-toast-padding: 1rem !default;
+$notification-modal-padding: 2.5rem !default;
+
+$global-banner-padding: 3rem !default;
+$global-banner-text-alignment: center !default;
+
+$notice-modal-background-color: $background-light !default;
+$notice-modal-shadow: $shadow4 !default;
+
+//Notification Icons
+$icon-size: 2rem !default;
+$icon-pop: 2.5rem !default;
+$icon-padding: 3.5rem !default;
+
+$icon-info: url("../../../core/assets/icons/system/info.svg") !default;
+$icon-success: url("") !default;
+$icon-warning: url("") !default;
+$icon-danger: url("") !default;
+
+//Notification Colors
+$border-color-info: $color-info !default;
+$border-color-success: $color-success !default;
+$border-color-warning: $color-warning !default;
+$border-color-danger: $color-danger !default;
+
+//Notification Background Colors
+$notice-inline-background-color: $gray-50 !default;
+$notice-banner-background-color: $gray-50 !default;
+$notice-toast-background-color: $black !default;
+$notice-banner-background-color-info: $background-color-info !default;
+$notice-banner-background-color-success: $background-color-success !default;
+$notice-banner-background-color-warning: $background-color-warning !default;
+$notice-banner-background-color-danger: $background-color-danger !default;
+
+$notice-icon-pulse-shape-info: str-replace(
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3e%3ccircle fill='#{$color-info}' cx='50%' cy='50%' r='50%' /%3e%3c/svg%3e"),
+  "#",
+  "%23"
+) !default;
+$notice-icon-pulse-shape-success: str-replace(
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3e%3ccircle fill='#{$color-success}' cx='50%' cy='50%' r='50%' /%3e%3c/svg%3e"),
+  "#",
+  "%23"
+) !default;
+$notice-icon-pulse-shape-warning: str-replace(
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' %3e%3cpath fill='#{$color-warning}' d='M4.19954519,38 L35.8004548,38 C39.0318891,38 41.0462898,34.4650889 39.4305726,31.6498603 L23.6301178,4.11142143 C22.0144007,1.29619286 17.9855993,1.29619286 16.3698822,4.11142143 L0.56942741,31.6498603 C-1.04628975,34.4650889 0.968110866,38 4.19954519,38 Z'%3E%3C/path%3E/%3e%3c/svg%3e"),
+  "#",
+  "%23"
+) !default;
+$notice-icon-pulse-shape-danger: str-replace(
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3e%3ccircle fill='#{$color-danger}' cx='50%' cy='50%' r='50%' /%3e%3c/svg%3e"),
+  "#",
+  "%23"
+) !default;

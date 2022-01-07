@@ -1,0 +1,87 @@
+// Animation Utilities
+
+//Global Animation Rules
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  
+  .animated.fast {
+    -webkit-animation-duration: 800ms;
+    animation-duration: 800ms;
+  }
+  
+  .animated.faster {
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+  }
+
+  .animated.fastest {
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+  }
+  
+  .animated.slow {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+  
+  .animated.slower {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+  }
+  
+  
+  //Delays
+  .delay-half {
+    animation-delay: .5s;
+  }
+  
+  .delay-1 {
+    animation-delay: 1s;
+  }
+  
+  .delay-1half {
+    animation-delay: 1.5s;
+  }
+  
+  .delay-2 {
+    animation-delay: 2s;
+  }
+  
+  .delay-2half {
+    animation-delay: 2.5s;
+  }
+  
+  .delay-3 {
+    animation-delay: 3s;
+  }
+  
+  .delay-3half {
+    animation-delay: 3.5s;
+  }
+  
+  .delay-4 {
+    animation-delay: 4s;
+  }
+  
+  .delay-4half {
+    animation-delay: 4.5s;
+  }
+  
+  .delay-5 {
+    animation-delay: 5s;
+  }
+
+  .animation-none {
+    transition: none!important;
+    transform:none!important;
+  }
+  

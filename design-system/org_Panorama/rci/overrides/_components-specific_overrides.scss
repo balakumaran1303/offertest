@@ -1,0 +1,14 @@
+// Components Specific Overrides
+// Themes global components from the Base
+// Complex, custom, modular components built from combined Elements
+
+@import "../components/specific/variables/image-viewer";
+@import "../components/specific/rules/image-viewer";
+@import "../components/specific/variables/resort-card";
+@import "../components/specific/rules/resort-card";
+@import "../components/specific/variables/favorite-search-card";
+@import "../components/specific/rules/favorite-search-card";
+@import "../components/specific/variables/footer";
+@import "../components/specific/rules/footer";
+@import "../components/specific/variables/header-nav";
+@import "../components/specific/rules/header-nav";

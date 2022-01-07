@@ -1,0 +1,22 @@
+// Branch Design System 
+// Do not change the order!
+//1. Core Start: core_exports_start.scss
+//2. Brand Variable Overrides
+//3. Elements Variable Overrides
+//4. Components
+//5. Core End: core_exports_end.scss
+//6. Specific Components
+// 1. Core Start Files - Do not modify
+@import "../../core/exports/core_exports_start.scss";
+// 2. Brand Overrides Imports
+@import "./overrides/_tokens_overrides.scss";
+// 3. Elements Variable Overrides
+@import "../../core/exports/core_exports_defaults.scss";
+@import "./overrides/_elements_overrides.scss";
+// 4. Components Variable Overrides
+@import "./overrides/_components-simple_overrides.scss";
+@import "./overrides/_components-global_overrides.scss";
+// 5. Core End Files
+@import "../../core/exports/core_exports_end.scss";
+// 6. Specific Components
+@import "./overrides/_components-specific_overrides.scss";

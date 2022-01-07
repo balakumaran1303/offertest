@@ -1,0 +1,213 @@
+.banner {
+	$this: &;
+
+	position: relative;
+	overflow: hidden;   
+
+	.row {
+		> img {
+			z-index: -1;
+		}
+		.single-col {
+			@extend .col-12;
+
+			@at-root {
+				#{$this}.card-block .row .single-col {
+					@extend .col-12, .col-md-8, .col-lg-5;
+                    background-color:#fff
+				}
+			}
+            //added by Siva
+            p{
+                @extend .pb-3,.m-0,.text-center;
+                @include media-breakpoint-up(md){
+                    text-align: left !important;
+                }
+            }
+            //ends here
+		}
+
+		.two-col {
+			&:nth-of-type(2n-1) {
+				@extend .col-12, .offset-sm-2, .col-sm-4, .col-lg-4;
+			}
+			&:nth-of-type(2n) {
+				@extend .col-12, .col-sm-4, .offset-lg-1, .col-lg-4; 
+			}
+		}
+
+  }
+}
+
+.slick-dots li button:before {
+    font-size: 50px;
+}
+
+  .slick-arrow.slick-prev {
+    left: 0;
+    z-index: 1;
+    @extend .m-xl-3;
+}
+//added by Siva
+.slick-next:before {
+    display: none;
+  }
+  
+  [dir="rtl"] .slick-next:before {
+    display: none;
+  }
+  .slick-prev:before {
+    display: none;
+    
+  }
+  
+  [dir="rtl"] .slick-prev:before {
+    display: none;
+  }
+
+  .slick-track{
+    line-height: 0;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 25px !important;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+//ends here
+.slick-arrow.slick-next {
+    right: 0;
+    z-index: 1;
+    @extend .m-xl-3;
+}
+.opacity-0 {
+    opacity: 0;
+}
+.bannercarousel {
+    .slick-list {
+        @extend .w-100;
+    }
+}
+
+.banner-carousel {
+    .slick-list {
+        @extend .pb-7,
+        .pb-lg-4,
+        .pb-xl-4;
+        .deals-banner {
+            @include media-breakpoint-down(md) {
+                height: px-rem(240px);
+            }
+        }
+        .carousel-card {
+            bottom: px-rem(-24px);
+            .carousel-banner {
+                @include media-breakpoint-down(md) {
+                    justify-content: center;
+                }
+                .position-card-carousel {
+                    @include media-breakpoint-down(sm) {
+                        padding-left: px-rem(16px);
+                        padding-right: px-rem(16px);
+                    }
+                    p {
+                        line-height: $line-height-base;
+                        letter-spacing: px-rem(0.46px);
+                        color: $black;
+                        @extend .m-0;
+                    }
+                    a {
+                        @extend .mt-3;
+                    }
+                    .carousel-arrow {
+                        @include media-breakpoint-down(sm) {
+                            width: px-rem(36px);
+                            height: px-rem(36px);
+                        }
+                    }
+                    .slick-arrow.slick-disabled {
+                        @extend .d-none;
+                    }
+                    .prev-button {
+                        left: px-rem(2px);
+                        @include media-breakpoint-up(md) {
+                            left: px-rem(-18px);
+                        }
+                    }
+                    .next-button {
+                        right: px-rem(2px);
+                        @include media-breakpoint-up(md) {
+                            right: px-rem(-16px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slick-dots {
+        bottom: px-rem(0px);
+        left: 47%;
+        width: auto;
+        margin-bottom: px-rem(0px);
+        @include media-breakpoint-up(lg) {
+            bottom: 12%;
+            margin-bottom: 0;
+        }
+        li {
+            width: px-rem(5px);
+            .slick-active {
+                &::before {
+                    color: $black;
+                }
+            }
+            button[tabindex='0']:focus {
+                @extend :focus;
+            }
+            button {
+                &::before {
+                    font-size: px-rem(32px);
+                    color: $black;
+                }
+                &:focus:before {
+                    color: $black;
+                }
+                &:hover::before {
+                    @include media-breakpoint-up(lg) {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    .offer-carousel {
+        @extend .d-none;
+    }
+    .carousel-index {
+        @extend .d-none;
+    }
+}
+
+// comman arrow
+.carousel-arrow {
+    width: px-rem(50px);
+    height: px-rem(50px);
+    top: 40%;
+    border: none;
+}
+
+// right card variation
+.right-card {
+    .position-card-carousel {
+        margin-left: 0;
+        @include media-breakpoint-up(lg) {
+            margin-left: 58.3333333333%;
+        }
+    }
+}

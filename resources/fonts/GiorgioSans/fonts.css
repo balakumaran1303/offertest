@@ -1,0 +1,284 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2020 Schwartzco Inc.
+        License: 2008-CWICZR     
+*/
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-BlackItalic-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-BlackItalic-Cy-Gr-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.GiorgioSans-BlackItalic-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  800;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-Black-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-Black-Cy-Gr-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Black-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-HeavyItalic-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-HeavyItalic-Cy-Gr-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.GiorgioSans-HeavyItalic-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-Heavy-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-Heavy-Cy-Gr-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Heavy-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-BoldItalic-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-BoldItalic-Cy-Gr-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.GiorgioSans-BoldItalic-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-Bold-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-Bold-Cy-Gr-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Bold-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-MediumItalic-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-MediumItalic-Cy-Gr-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.GiorgioSans-MediumItalic-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-Medium-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-Medium-Cy-Gr-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Medium-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-RegularItalic-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-RegularItalic-Cy-Gr-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.GiorgioSans-RegularItalic-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-Regular-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-Regular-Cy-Gr-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Regular-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-LightItalic-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-LightItalic-Cy-Gr-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.GiorgioSans-LightItalic-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-Light-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-Light-Cy-Gr-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Light-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-ExtralightItalic-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-ExtralightItalic-Cy-Gr-Web.woff') format('woff');
+  font-weight:  200;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.GiorgioSans-ExtralightItalic-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  200;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-Extralight-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-Extralight-Cy-Gr-Web.woff') format('woff');
+  font-weight:  200;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Extralight-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  200;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-ThinItalic-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-ThinItalic-Cy-Gr-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.GiorgioSans-ThinItalic-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  100;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Giorgio Sans LCG Web';
+  src: url('GiorgioSans-Thin-Cy-Gr-Web.woff2') format('woff2'),
+       url('GiorgioSans-Thin-Cy-Gr-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Thin-Cy-Gr-Web {
+  font-family: 'Giorgio Sans LCG Web';
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components/interactions/checked</title>
+    <g id="components/interactions/checked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#016E84" x="0" y="0" width="40" height="40" rx="20"></rect>
+        <g id="checked-a-link" transform="translate(10.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M9.2424902,15.7205554 C8.278708,16.6764816 6.7184162,16.6764816 5.75709896,15.7205554 L1.97098794,11.9677502 C1.00967068,11.011824 1.00967068,9.4642502 1.97098794,8.508324 C2.9347701,7.5548426 4.49506196,7.5548426 5.4563792,8.508324 L7.4997946,10.5350832 L15.7917722,2.3106947 C16.7530894,1.35476844 18.3133812,1.35476844 19.2771634,2.3106947 C20.2409456,3.26417612 20.2409456,4.8117498 19.2771634,5.767676 L9.2424902,15.7205554 Z" id="checked-a"></path>
+        </g>
+    </g>
+</svg>

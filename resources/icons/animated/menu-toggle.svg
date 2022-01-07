@@ -1,0 +1,31 @@
+<svg id="icon-menuBtn" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+<style>
+    #icon-menuBtn .menu-top,
+    #icon-menuBtn .menu-mid,
+    #icon-menuBtn .menu-btm {
+        transition: all .3s ease-in-out;
+    }
+
+    #icon-menuBtn.ani-on .menu-top {
+        transform: rotate(45deg) translate(0px, 10px);
+        transform-origin: center;
+    }
+
+    button:hover > #icon-menuBtn .menu-mid {
+        transform: translateX(4px)
+    }
+
+    #icon-menuBtn.ani-on .menu-mid {
+        opacity: 0;
+    }
+
+    #icon-menuBtn.ani-on .menu-btm {
+        transform: rotate(-45deg) translate(0px, -10px);
+        transform-origin: center;
+    }
+}
+</style>
+    <rect class="menu-btm" width="24" height="4" x="8" y="28" />
+    <rect class="menu-mid" width="24" height="4" x="8" y="18" />
+    <rect class="menu-top" width="24" height="4" x="8" y="8" />
+</svg>

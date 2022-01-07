@@ -1,0 +1,19 @@
+// Global Options Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret: true;
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-prefers-reduced-motion-media-query: true;
+$enable-grid-classes: true;
+$enable-pointer-cursor-for-buttons: true;
+$enable-print-styles: true;
+$enable-responsive-font-sizes: false;
+$enable-validation-icons: true;
+$enable-deprecation-messages: true;

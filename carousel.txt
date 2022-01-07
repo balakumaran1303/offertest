@@ -1,0 +1,175 @@
+$(() => {
+  $('.slick-carousel').each(function (index) {
+
+    	var noOfCards = $(this).hasClass('banner-carousel');
+        var autoplay = eval($(this).find('.rotating-carousel').attr('data-transition'));
+        var autoplaySpeed = eval($(this).find('.rotating-carousel').attr('data-carousel-speed'));
+
+		var milliseconds = autoplaySpeed !== undefined ? autoplaySpeed : 6000;
+        var transition = autoplay !== undefined ? autoplay : false;
+
+        if (noOfCards) {
+            const bannerCarousel = $(this).find(".slick-slider");
+            initializeSlick(bannerCarousel, $(this), 1, 1, [], true, transition, false, milliseconds);
+        } else {
+            const offerCarousel = $(this).find(".slick-slider");
+            initializeSlick(offerCarousel, $(this), 1, 1, carouselResponsiveBrkPnts(3, 4), false, transition, false, milliseconds);
+        }
+  });
+});
+
+
+// test
+
+function initializeSlick(_this, carouButtons, slidesToShow, slidesToScroll, responsiveArray, dots = false, autoplay = false, infinite = false, autoplaySpeed = 6000) {
+    const slickConfig = {
+        mobileFirst: true,
+        dots,
+        infinite,
+        slidesToShow,
+        slidesToScroll,
+        autoplay,
+        autoplaySpeed,
+        accessibility: true,
+        prevArrow: $(carouButtons).find('.prev-button'),
+        nextArrow: $(carouButtons).find('.next-button'),
+        responsive: responsiveArray,
+    };
+
+    $(_this).on('init reInit afterChange', function(event, slick, currentSlide) {
+        const slider = this;
+        setTimeout(function() {
+            let dots = $('.slick-dots > LI > BUTTON', slider);
+            $.each(dots, function(i, e) {
+                let attr = "current slide " + (i + 1) + "of" + slick.slideCount;
+                $(this).attr('aria-label', attr);
+                $(this).addClass('axSlickDot');
+            });
+        }, 100);
+    }).slick(slickConfig);
+}
+
+function carouselResponsiveBrkPnts(tabletSlides, desktopSlides, tabletScroll = 1, desktopScroll = 1) {
+    const responsive = [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: desktopSlides,
+                slidesToScroll: desktopScroll,
+                centerMode: false,
+            },
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: tabletSlides,
+                slidesToScroll: tabletScroll,
+                centerMode: false,
+            },
+        }
+    ];
+    return responsive;
+}
+
+$(() => {
+    $('.slick-carousel').each(function(index) {
+        const noOfCards = $(this).hasClass('banner-carousel');
+        const autoplay = eval($(this).find('.rotating-carousel').attr('data-transition'));
+        const autoplaySpeed = eval($(this).find('.rotating-carousel').attr('data-carousel-speed'));
+
+        const milliseconds = autoplaySpeed !== undefined ? autoplaySpeed : 6000;
+        const transition = autoplay !== undefined ? autoplay : false;
+
+        if (noOfCards) {
+            const bannerCarousel = $(this).find('.slick-slider');
+            const _this = $(this);
+            $(this).imagesLoaded().done((instance) => {
+                initializeSlick(bannerCarousel, _this, 1, 1, [], true, transition, false, milliseconds);
+                bannerCarousel.removeClass('opacity-0');
+            });
+        } else {
+            const offerCarousel = $(this).find('.slick-slider');
+            const _this = $(this);
+            $(this).imagesLoaded().done((instance) => {
+                initializeSlick(offerCarousel, _this, 4, 1, carouselResponsiveBrkPnts(3, 4), false, transition, false, milliseconds);
+                offerCarousel.removeClass('opacity-0');
+                _this.find('.offer-carousel').removeClass('opacity-0');
+            });
+        }
+    });
+
+    // Tabs nav links
+    $(document).on('keydown', '.axSlickDot', function(e) {
+
+        console.log('called');
+
+        const currentBtn = $(this);
+        const currentCardWrapper = currentBtn.parents();
+
+        function next() {
+            $(currentCardWrapper.next().children().focus());
+        }
+
+        function prev() {
+            $(currentCardWrapper.prev().children().focus());
+        }
+
+        switch (e.which) {
+            case keyCode.LEFT:
+                prev();
+                break;
+            case keyCode.RIGHT:
+                next();
+                break;
+        }
+
+    });
+
+});
+
+
+.accordion-icons[aria-expanded="true"] {
+    .accordion-open {
+        @extend .d-none;
+    }
+    .accordion-close {
+        @extend .d-inline-block;
+    }
+}
+
+.accordion-icons[aria-expanded="false"] {
+    .accordion-open {
+        @extend .d-inline-block;
+    }
+    .accordion-close {
+        @extend .d-none;
+    }
+}
+
+.accordion-section {
+    .accordion-body {
+        .accordion-container {
+            @extend .m-0;
+        }
+        .accordion-links {
+            &:focus {
+                @extend .shadow-none;
+            }
+            @extend .p-0, .btn-link, .border-0;
+            .accordion-title {
+                @extend .mb-2;
+            }
+        }
+        .accordion-body { 
+            @extend .p-0;
+            .textoffer {
+                @extend .p-0, .m-0;
+                & > div {
+                    @extend .m-0;
+                }
+                .textoffer-body {
+                    @extend .p-0;
+                }
+            }
+        }
+    }
+}

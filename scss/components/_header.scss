@@ -1,0 +1,421 @@
+/* margin for components */
+.aem-component-top,
+.react-component-top {
+    margin-top: 94px;
+    @include media-breakpoint-up(xl) {
+        margin-top: 82px;
+    }
+}
+.react-component-top {
+    margin-bottom: 30px;
+}
+.aem-nav-container {
+    .skiptocontent {
+        position: absolute;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        z-index: -999;
+        &:focus {
+            color: $white;
+            background-color: $black;
+            left: auto;
+            top: auto;
+            width: auto;
+            height: auto;
+            overflow: auto;
+            padding: 5px;
+            z-index: 999;
+        }
+    }
+    .header-logo {
+        // height: $nav-menu-height;
+        height: 44px;
+    }
+    .nav-backdrop {
+        &.in {
+            position: fixed;
+            right: 0;
+            top: 0;
+        }
+    }
+    .hamburgerIcon {
+        svg {
+            width: 24px;
+        }
+    }
+
+    /* header gradient styles before scroll */
+    .bg-header-transparent {
+        .nav-menu {
+            > a {
+                @include media-breakpoint-up(xl) {
+                    color: $white;
+                    &:hover,
+                    &.active {
+                        color: $primary;
+                        .nav-menu-arrow {
+                            polygon {
+                                fill: $primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bg-header-transparent {
+        @extend .bg-transparent, .border-0, .shadow-none;
+        @include media-breakpoint-up(xl) {
+            .nav-menu-arrow polygon {
+                fill: $white;
+            }
+        }
+        .prelogin-signin-btn {
+            @extend .border-white;
+            background-color: rgba(255, 255, 255, 0.3);
+            &:hover {
+                @include text-contrast($btn-white-text-color-hover);
+                background-color: $btn-black-text-color-hover;
+                border-color: $btn-black-text-color-hover;
+            }
+        }
+        .header-gradient {
+            background: transparent;
+            @media (min-width: 992px) {
+                @include gradient-directional(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0), 180deg);
+            }
+        }
+    }
+    .language-flag {
+        width: 24px;
+    }
+    .language-options {
+        height: 170px;
+    }
+    .flag-toggle,
+    .nav-menu-link,
+    .nav-close-menu {
+        img,
+        span {
+            pointer-events: none;
+        }
+    }
+    .locale-selector-mobile {
+        .locale-menu {
+            width: 93%;
+        }
+    }
+    .notification-container {
+        .aem-btn-primary,
+        .btn-primary {
+            background-color: $primary;
+        }
+    }
+    .nav-menu-link.active,
+    .notification-container {
+        &:after {
+            content: "";
+            position: absolute;
+            right: 0rem;
+            bottom: px-rem(-23px);
+            border-color: $background-base transparent;
+            border-style: solid;
+            border-width: 0 px-rem(32px) px-rem(19px);
+        }
+    }
+    .notification-container {
+        &:after {
+            top: px-rem(-8px);
+            right: px-rem(13px);
+            bottom: auto;
+            border-color: $white transparent;
+            border-width: 0 px-rem(8px) px-rem(8px);
+        }
+    }
+    .nav-menu-arrow {
+        polygon {
+            fill: $black;
+        }
+    }
+    .menubar {
+        @extend .border-bottom;
+        .nav-menu-arrow {
+            transform: rotate(-90deg);
+            @include media-breakpoint-up(xl) {
+                transform: rotate(0);
+            }
+        }
+        @include media-breakpoint-up(xl) {
+            border: none !important;
+            .nav-menu-link {
+                z-index: 1001;
+            }
+        }
+    }
+    .signin-link {
+        a {
+            font-size: $font-size-base;
+        }
+    }
+    .menubar,
+    .sub-menu-list {
+        > li {
+            > a {
+                font-size: $font-size-base;
+                @include media-breakpoint-up(xl) {
+                    font-size: $points-size-small;
+                }
+            }
+        }
+    }
+    .nav-menu {
+        > a {
+            @extend .font-weight-normal;
+            @include media-breakpoint-up(xl) {
+                font-family: $font-weight-bolder;
+            }
+            &:hover {
+                color: $black;
+                @include media-breakpoint-up(xl) {
+                    color: $primary;
+                }
+            }
+            &:before {
+                border-bottom: none;
+                @include media-breakpoint-up(xl) {
+                    border-bottom: 3px $primary;
+                }
+            }
+        }
+    }
+    .mobile-close-banner {
+        display: flex;
+        @media (min-width: 368px) {
+            display: none;
+        }
+    }
+    .mobile-close-header {
+        padding: 0;
+        @media (min-width: 368px) {
+            padding: 0 px-rem(8px);
+        }
+    }
+    .nav-close-icon {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        right: px-rem(328px);
+        background: $white;
+        border: $white;
+        top: px-rem(10px);
+        opacity: 0.8;
+    }
+    .mobile-close-icon {
+        display: none;
+        @media (min-width: 368px) and (max-width: 767px) {
+            display: flex;
+        }
+    }
+    .slide-menu-container {
+        @media (max-width: 367px) {
+            width: 100%;
+        }
+    }
+    .sub-menu-promo-block {
+        figcaption {
+            bottom: 0;
+        }
+    }
+    .sub-menu-list {
+        a {
+            &:hover {
+                background-color: transparent;
+                @include media-breakpoint-up(xl) {
+                    background-color: $breeze;
+                }
+            }
+        }
+    }
+}
+
+/* .aem-nav-container {
+    .header-logo {
+        height: $nav-menu-height;
+    }
+
+    .nav-backdrop {
+        &.in {
+            position: fixed;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    .nav-close-icon {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        right: px-rem(328px);
+        background: $white;
+        border: $white;
+        top: px-rem(10px);
+        opacity: 0.8;
+    } */
+
+/* Mobile/tablet specific styles - starts */
+/* .header-mobile {
+        .locale-selector {
+            position: relative;
+            .dropdown-menu {
+                width: 92%;
+            }
+        }
+        .nav-menu {
+            > .nav-more{
+                &.active:after,
+                &:after {
+                    display: inline-flex;
+                    float: right;
+                    transform: rotate(-90deg);
+                }
+            }
+            > a {
+                font-family: $font-family-base;
+                &:before,
+                &:hover:before {
+                    border: none;
+                }
+            }
+            .nav-menu-arrow {
+                svg {
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+    }
+
+    .mobile-close-icon {
+        display: none;
+        @media (min-width: 368px) and (max-width: 767px) {
+            display: flex;
+        }
+    }
+
+    .mobile-close-banner {
+        display: flex;
+        @media (min-width: 367px) {
+            display: none;
+        }
+    }
+
+    @media (max-width: 367px) {
+        .slide-menu-container {
+            width: 100%;
+        }
+    } */
+
+/* Mobile/tablet specific styles - ends */
+
+/* .sub-menu-container {
+        &.open {
+            top: px-rem(95px);
+        }
+    }
+
+    .nav-menu-arrow {
+        polygon {
+            fill: $black;
+        }
+    } */
+
+/* header gradient styles before scroll */
+/* .bg-header-transparent {
+        @extend .bg-transparent, .border-0, .shadow-none;
+        @include media-breakpoint-up(xl) {
+            .nav-menu-arrow {
+                polygon {
+                    fill: $white;
+                }
+            }
+        }
+        .prelogin-signin-btn {
+            @extend .border-white;
+            background-color: rgba(255, 255, 255, 0.3);
+            &:hover {
+                @include text-contrast($btn-white-text-color-hover);
+                background-color: $btn-black-text-color-hover;
+                border-color: $btn-black-text-color-hover;
+            }
+        }
+        .header-gradient {
+            @include gradient-directional(#000000ab, #fff0, 180deg);
+        }
+    }
+
+    .header-desktop {
+        .bg-header-transparent {
+            .nav-menu {
+                > a {
+                    color: $white;
+                    &:hover,
+                    &.active {
+                        color: $primary;
+                        .nav-menu-arrow {
+                            polygon {
+                                fill: $primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } */
+
+/* nav link styles */
+/* .nav-menu > a {
+        &:hover {
+            color: $primary;
+        }
+        &:before {
+            border: none;
+        }
+    }
+
+    .notification-container {
+        .btn-primary {
+            background-color: $primary;
+        }
+    }
+
+    .language-flag {
+        width: 22px;
+        height: 13px;
+    }
+    .language-options {
+        height: 162px;
+    }
+
+    .nav-menu-link.active,
+    .notification-container {
+        &:after {
+            content: "";
+            position: absolute;
+            right: 0rem;
+            bottom: px-rem(-23px);
+            border-color: $background-base transparent;
+            border-style: solid;
+            border-width: 0 2.05rem 1.2rem;
+        }
+    }
+    .notification-container {
+        &:after {
+            top: px-rem(-8px);
+            right: px-rem(13px);
+            bottom: auto;
+            border-color: $white transparent;
+            border-width: 0 0.55rem 0.5rem;
+        }
+    }
+} */

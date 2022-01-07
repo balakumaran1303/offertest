@@ -1,0 +1,65 @@
+.alert-container {
+    .alert-section {
+        .alert-details {
+            @extend .px-5, .text-center, .d-flex, .justify-content-center, .align-items-center;
+            width: 100%;
+            margin: 0px auto;
+            min-height: px-rem(48px);
+            @include media-breakpoint-up(sm) {
+                width: px-rem(370px);
+                padding: px-rem(0px);         
+            }
+            p{
+                font-family: $font-weight-bold;
+                font-size: px-rem(14px);
+                line-height: px-rem(24px);
+                letter-spacing: px-rem(0.4px);
+                @extend .m-0;
+                a {
+                    @include media-breakpoint-down(sm) {
+                        display: block;         
+                    }
+                }
+            }
+        } 
+        .slick-track {
+            @extend .d-flex, .align-items-center;
+        }
+    }
+    .alert-arrow-sec {
+        @extend .position-absolute;
+        left: px-rem(0px);
+        right: px-rem(0px);
+        top: 50%;
+        transform: translate(0%,-50%);
+        .alert-details { 
+            @extend .position-relative;
+            width: 100%;
+            margin: 0px auto;
+            @include media-breakpoint-up(sm) {
+                width: px-rem(370px);         
+            }
+        }
+        button {
+            @extend .position-absolute;
+            border: px-rem(0px);
+            top: 50%;
+            transform: translate(0%,-50%);
+        }
+        .slick-arrow.slick-disabled {
+            @extend .d-none;
+        }
+        .prev-button {
+            left: px-rem(0px);
+            @include media-breakpoint-up(sm) {
+                left: px-rem(-112px);
+            }
+        }
+        .next-button {
+            right: px-rem(0px);
+            @include media-breakpoint-up(sm) {
+                right: px-rem(-112px);
+            }
+        }
+    }
+}

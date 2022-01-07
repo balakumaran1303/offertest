@@ -1,0 +1,17 @@
+// Design System Base Exports End 
+// 1. Rules
+// 2. Utilities
+// 3. Devices
+
+@import "../elements/_elements_rules";
+@import "../components-simple/components-simple_rules";
+@import "../components-global/_components-global_rules";
+
+
+//1. Utilities - src/design_system/scss/base/utilities
+@import "../utilities/utilities_imports";
+
+//2. Devices - src/design_system/scss/base/utilities/device
+@import "../utilities/device/screenreaders";
+@import "../utilities/device/mouse";
+@import "../utilities/device/print";

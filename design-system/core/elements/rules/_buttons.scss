@@ -1,0 +1,229 @@
+// stylelint-disable selector-no-qualifying-type
+
+//
+// Base styles
+//
+
+.btn, .btn-icon {
+  display: inline-block;
+  @include font-weight-type( $font-family:$btn-font-family, $font-weights:$btn-font-weight);
+  color: $body-color;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: $btn-border-width solid transparent;
+  width:100%;
+  position: relative;
+  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+  @include transition($btn-transition);
+
+  @include hover {
+    color: $body-color;
+    text-decoration: none;
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0;
+    border-width:2px;
+    border-style:solid;
+    box-shadow: $btn-focus-box-shadow;
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    opacity: $btn-disabled-opacity;
+    @include box-shadow(none);
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    @include box-shadow($btn-active-box-shadow);
+
+    &:focus {
+      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+    }
+  }
+
+  &>img, svg {
+    vertical-align:top;
+  }
+
+}
+
+.btn-icon {
+
+  &>img, svg {
+    width:$btn-icon-width;
+    margin-right:$btn-padding-x-icon;
+    vertical-align:top;
+  }
+}
+
+// Future-proof disabling of clicks on `<a>` elements
+a.btn.disabled,
+fieldset:disabled a.btn {
+  pointer-events: none;
+}
+
+
+//
+// Alternate buttons
+//
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    @include button-outline-variant($value);
+  }
+}
+
+.btn-black {
+  &:hover {
+    @include text-contrast($btn-black-background-hover);
+    background-color:$btn-black-background-hover;
+    border-color:$btn-black-outline-border-color-hover;
+  }
+}
+
+.btn-white {
+  &:hover {
+    @include text-contrast($btn-white-text-color-hover);
+    background-color:$btn-white-background-color-hover;
+    border-color:$btn-white-border-color-hover;
+  }
+}
+
+.btn-outline-white {
+  background-color: $btn-outline-white-background;
+}
+
+.btn-priority {
+  text-transform: $priority-btn-text-transform;
+}
+
+.btn-outline-secondary {
+  border-color: $color-secondary-outline!important;
+  color: $gray-900!important;
+}
+
+.btn-ghost:hover:not(:disabled) {
+  text-decoration: $link-hover-decoration;
+}
+
+//
+// Link buttons
+//
+
+// Make a button look and behave like a link
+.btn-link {
+  @include font-weight-type( $font-family:$btn-font-family, $font-weights:$btn-font-weight);
+  color: $link-color;
+  text-decoration: $link-decoration;
+
+  @include hover {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+
+  &:focus,
+  &.focus {
+    text-decoration: $link-hover-decoration;
+    box-shadow: none;
+  }
+
+  &:disabled,
+  &.disabled {
+    color: $btn-link-disabled-color;
+    pointer-events: none;
+  }
+
+  // No need for an active state here
+}
+
+
+//
+// Button Sizes
+//
+
+.btn-lg {
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-line-height-lg, $btn-border-radius-lg);
+}
+
+.btn-sm {
+  @include button-size($btn-padding-y-sm, $btn-padding-y-sm, $btn-font-size-sm, $btn-line-height-sm, $btn-border-radius-sm);
+}
+
+.btn-sm-icon {
+  @include button-size($btn-padding-y-sm-icon, $btn-padding-x-sm-icon, $btn-font-size-sm, $btn-line-height-sm-icon, $btn-border-radius-sm);
+
+  &>img, svg {
+    width:$btn-sm-icon-width;
+    margin-right:$btn-padding-x-sm-icon;
+    vertical-align:top;
+  }
+}
+
+
+//
+// Block button
+//
+
+.btn-block {
+  display: block;
+  width: 100%;
+
+  // Vertically space out multiple block buttons
+  + .btn-block {
+    margin-top: $btn-block-spacing-y;
+  }
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}
+
+.custom-dropdown-item, .custom-dropdown-item-sm {
+  background-color: $interactive-enabled-bg;
+  border-color: $interactive-enabled-bg;
+  color: $text-black;
+  border-radius: 0em;
+  padding: $spacer-75;
+  cursor: pointer;
+}
+
+.custom-dropdown-item-sm {
+  padding: $spacer;
+
+  @include media-breakpoint-up(lg) {
+    padding:map-get($spacers, 1);
+  }
+}
+
+.custom-dropdown-item:hover, .custom-dropdown-item-sm:hover {
+  background-color: $interactive-hover-bg;
+  border-color: $interactive-hover-bg;
+  color:$primary;
+}
+
+.custom-dropdown-item > label {
+  margin-left:$spacer;
+  cursor: pointer;
+  width:100%;
+}
+
+.custom-dropdown-item-sm > label {
+  margin-left:map-get($spacers, 1);
+}

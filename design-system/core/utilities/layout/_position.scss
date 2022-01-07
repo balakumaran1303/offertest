@@ -1,0 +1,81 @@
+// stylelint-disable declaration-no-important
+
+// Common values
+@each $position in $positions {
+  .position-#{$position} { position: $position !important; }
+}
+
+// Shorthand
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $zindex-fixed;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: $zindex-fixed;
+}
+
+.sticky-top {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 0;
+    z-index: $zindex-sticky;
+  }
+}
+
+.scrollY {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.scrollX {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.abs-center, .abs-tl, .abs-tr, .abs-bl, .abs-br {position: absolute!important;}
+
+.abs-tl {
+  top:0!important;
+  left:0!important;
+  bottom:auto!important;
+  right:auto!important;
+}
+
+.abs-tr {
+  top:0!important;
+  right:0!important;
+  bottom:auto!important;
+  left:auto!important;
+}
+
+.abs-bl {
+  bottom:0!important;
+  left:0!important;
+  top:auto!important;
+  right:auto!important;
+}
+
+.abs-br {
+  bottom:0!important;
+  right:0!important;
+  top:auto!important;
+  left:auto!important;
+}
+
+.abs-center, .fixed-center {
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+

@@ -1,0 +1,143 @@
+//Custom variations - for image & card
+.semi-circle {
+    z-index: 3;
+    right: 0;
+    vertical-align: middle;
+    height: px-rem(260px);
+    width: px-rem(130px);
+    @include border-left-radius(135px);
+    top: 50%;
+    margin-top: px-rem(-130px);
+    margin-right: -5%;
+}
+
+.image-left {
+    .semi-circle {
+        @include border-right-radius(135px);
+        @include border-left-radius(0px);
+        margin-right: 88%;
+    }
+}
+
+.image-left {
+    .banner-wrapper {
+        @extend .flex-row-reverse;
+    }
+}
+
+.image-right {
+    .banner-wrapper {
+        @extend .flex-row;
+    }
+}
+
+.card-left-reverse {
+    .hero-card-holder {
+        &:nth-child(odd) {
+            .hero-card {
+                flex-direction: column;
+                @include media-breakpoint-up(md) {
+                    flex-direction: row-reverse;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
+
+.card-right-reverse {
+    .hero-card-holder {
+        &:nth-child(even) {
+            .hero-card {
+                flex-direction: column;
+                @include media-breakpoint-up(md) {
+                    flex-direction: row-reverse;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
+
+//banner scss classes
+.banner-wrapper {
+    .banner-line {
+        border: px-rem(3px) solid $black;
+    }
+    .banner-disclaimer {
+        >p {
+            line-height: px-rem(24px);
+            font-size: px-rem(14px);
+            letter-spacing: px-rem(0.48px);
+        }
+    }
+    .banner-description {
+        >p {
+            @extend .lead,
+            .points-medium,
+            .mb-4;
+        }
+    }
+    .timer-panel {
+        @include border-radius(8px);
+        width: 27%;
+    }
+}
+
+.card-section {
+    .container-fluid {
+        @include media-breakpoint-up(lg) {
+            max-width: 60pc;
+        }
+        @include media-breakpoint-up(xl) {
+            max-width: 72pc;
+        }
+    }
+    .hero-card-container {
+        .hero-card {
+            flex-direction: column;
+            @include media-breakpoint-up(md) {
+                flex-direction: row;
+            }
+        }
+        .hero-card {
+            &.with-link:hover {
+                @extend .border-0;
+                @extend .shadow-3;
+                @extend .cursor-pointer;
+            }
+            .hero-card-content {
+                width: auto;
+                @include media-breakpoint-up(md) {
+                    width: px-rem(352px);
+                }
+            }
+        }
+        .hero-card-holder {
+            @extend .mb-4;
+            &:last-child {
+                @extend .mb-0;
+            }
+            &:first-of-type {
+                // margin-bottom: 1rem;
+                @include media-breakpoint-up(lg) {
+                    margin-left: 8.33% !important;
+                    margin-bottom: 0;
+                    padding: 0 px-rem(24px) 0 px-rem(8px) !important;
+                }
+            }
+            &:last-of-type {
+                // margin-top: 1rem;
+                @include media-breakpoint-up(lg) {
+                    padding: 0 px-rem(8px) 0 px-rem(24px) !important;
+                    margin-top: 0;
+                }
+            }
+            .card-body {
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

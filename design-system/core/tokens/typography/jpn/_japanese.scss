@@ -1,0 +1,255 @@
+// // Japanese Typography
+// //
+// // Font, line-height, and color for body text, headings, and more.
+
+$japanese-font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック" , "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif!default;
+
+$fallback-fonts:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!default;
+
+// // stylelint-disable value-keyword-case
+$font-family-sans-serif:     $japanese-font-family, $fallback-fonts!default;
+$font-family-sans-serif-bold:  $japanese-font-family, $fallback-fonts!default;
+$font-family-sans-serif-semibold:    $japanese-font-family, $fallback-fonts!default;
+$font-family-sans-serif-light:      $japanese-font-family, $fallback-fonts!default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace!default;
+$font-family-base:            $font-family-sans-serif!default;
+$font-family-display:         $japanese-font-family!default;
+$font-family-display-weight-used:     false!default;
+
+// // stylelint-enable value-keyword-case
+
+$font-size-base:              1rem!default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25!default;
+$font-size-sm:                $font-size-base * .875!default;
+
+$font-family-weight-used:     false!default; //required true or false
+$display-font-family-weight-used:     false!default; //required true or false
+
+$font-weight-lighter:         lighter!default;
+$font-weight-light:           200!default;
+$font-weight-normal:          normal!default;
+$font-weight-bold:            bold!default;
+$font-weight-bolder:          700!default;
+
+$font-weight-base:            normal!default;
+$line-height-base:            1.5!default;
+$line-height-lg:              1!default;
+$line-height-sm:              1!default;
+
+//Headline Styles
+$headings-margin-bottom:      $spacer / 2!default;
+$headings-font-family:        $font-family-base!default;
+$headings-line-height:        1.2!default;
+$headings-color:              null!default; 
+
+$h1-font-weight:                $font-weight-normal!default;
+$h2-font-weight:                $font-weight-normal!default;
+$h3-font-weight:                $font-weight-bolder!default;
+$h4-font-weight:                $font-weight-normal!default;
+$h5-font-weight:                $font-weight-normal!default;
+$h6-font-weight:                $font-weight-normal!default;
+
+$h1-font-size-mobile:         $font-size-base * 2!default;
+$h2-font-size-mobile:         $font-size-base * 1.5!default;
+$h3-font-size-mobile:         $font-size-base * 1.375!default;
+$h4-font-size-mobile:         $font-size-base * 1.125!default;
+$h5-font-size-mobile:         $font-size-base * 1.125!default;
+$h6-font-size-mobile:         $font-size-base * 1.125!default;
+
+$h1-font-size:                $font-size-base * 2.5!default;
+$h2-font-size:                $font-size-base * 2!default;
+$h3-font-size:                $font-size-base * 1.375!default;
+$h4-font-size:                $font-size-base * 1.375!default;
+$h5-font-size:                $font-size-base * 1.25!default;
+$h6-font-size:                $font-size-base * 1.125!default;
+
+$h1-line-height:                1.5!default;
+$h2-line-height:                1.5!default;
+$h3-line-height:                1.5!default;
+$h4-line-height:                1.5!default;
+$h5-line-height:                1.5!default;
+$h6-line-height:                1.5!default;
+
+$h1-mobile-line-height:         1.5!default;
+$h2-mobile-line-height:         1.5!default;
+$h3-mobile-line-height:         1.5!default;
+$h4-mobile-line-height:         1.5!default;
+$h5-mobile-line-height:         1.5!default;
+$h6-mobile-line-height:         1.5!default;
+
+
+//Display Headlines
+
+$display-font-family:         $font-family-display!default;
+$display-text-transform-1:    uppercase!default;
+$display-text-transform-2:    uppercase!default;
+$display-text-transform-3:    uppercase!default;
+$display-text-transform-4:    uppercase!default;
+
+$display1-size:               5.625rem!default;
+$display2-size:               4rem!default;
+$display3-size:               2.8125rem!default;
+$display4-size:               2.25rem!default;
+
+$display1-size-tablet:        5.625rem!default;
+$display2-size-tablet:        4rem!default;
+$display3-size-tablet:        2.8125rem!default;
+$display4-size-tablet:        2.25rem!default;
+
+$display1-size-mobile:        3.375rem!default;
+$display2-size-mobile:        2.5rem!default;
+$display3-size-mobile:        2.25rem!default;
+$display4-size-mobile:        2.25rem!default;
+
+$display1-weight:             normal!default;
+$display2-weight:             normal!default;
+$display3-weight:             normal!default;
+$display4-weight:             normal!default;
+
+$display1-line-height:         1.5!default;
+$display2-line-height:         1.5!default;
+$display3-line-height:         1.5!default;
+$display4-line-height:         1.5!default;
+
+$display1-line-height-tablet:         1.5!default;
+$display2-line-height-tablet:         1.5!default;
+$display3-line-height-tablet:         1.5!default;
+$display4-line-height-tablet:         1.5!default;
+
+$display1-line-height-mobile:         1.5!default;
+$display2-line-height-mobile:         1.5!default;
+$display3-line-height-mobile:         1.5!default;
+$display4-line-height-mobile:         1.5!default;
+
+$display1-letter-spacing:         -0.56px!default;
+$display2-letter-spacing:         -0.41px!default;
+$display3-letter-spacing:         -0.28px!default;
+$display4-letter-spacing:         -0.23px!default;
+
+$display1-letter-spacing-tablet:         -0.56px!default;
+$display2-letter-spacing-tablet:         -0.41px!default;
+$display3-letter-spacing-tablet:         -0.28px!default;
+$display4-letter-spacing-tablet:         -0.23px!default;
+
+$display1-letter-spacing-mobile:         -0.31px!default;
+$display2-letter-spacing-mobile:         -0.25px!default;
+$display3-letter-spacing-mobile:         -0.23px!default;
+$display4-letter-spacing-mobile:         -0.23px!default;
+
+$display1-word-spacing: 16px!default;
+$display2-word-spacing: 14px!default;
+$display3-word-spacing: 8px!default;
+$display4-word-spacing: 4px!default;
+
+$display1-word-spacing-tablet: 16px!default;
+$display2-word-spacing-tablet: 14px!default;
+$display3-word-spacing-tablet: 8px!default;
+$display4-word-spacing-tablet: 4px!default;
+
+$display1-word-spacing-mobile: 10px!default;
+$display2-word-spacing-mobile: 8px!default;
+$display3-word-spacing-mobile: 6px!default;
+$display4-word-spacing-mobile: 4px!default;
+
+//Points Text Styles
+$points-size-x-small: 1rem!default;
+$points-size-x-small-line-height:1rem!default;
+$points-size-small: 1.125rem!default;
+$points-size-small-line-height:1.5rem!default;
+$points-size-medium: 1.5rem!default;
+$points-size-medium-line-height:2rem!default;
+$points-size-large: 2rem!default;
+$points-size-large-line-height:2.5rem!default;
+$points-size-x-large: 3.5rem!default;
+$points-size-x-large-line-height:4rem!default;
+
+$points-size-x-small-mobile: 0.875rem!default;
+$points-size-x-small-mobile-line-height:1rem!default;
+$points-size-small-mobile: 1.125rem!default;
+$points-size-small-mobile-line-height:1.5rem!default;
+$points-size-medium-mobile: 1.375rem!default;
+$points-size-medium-mobile-line-height:2rem!default;
+$points-size-large-mobile: 1.5rem!default;
+$points-size-large-mobile-line-height:2rem!default;
+$points-size-x-large-mobile: 2.5rem!default;
+$points-size-x-large-mobile-line-height:3rem!default;
+
+$points: ()!default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+$points: map-merge((
+    "x-small": ($points-size-x-small,$points-size-x-small-line-height, $points-size-x-small-mobile, $points-size-x-small-mobile-line-height),
+    "small": ($points-size-small,$points-size-small-line-height, $points-size-small-mobile, $points-size-small-mobile-line-height),
+    "medium": ($points-size-medium,$points-size-medium-line-height, $points-size-medium-mobile, $points-size-medium-mobile-line-height),
+    "large": ($points-size-large,$points-size-large-line-height, $points-size-large-mobile, $points-size-large-mobile-line-height),
+    "x-large": ($points-size-x-large,$points-size-x-large-line-height, $points-size-x-large-mobile, $points-size-x-large-mobile-line-height)
+    ),
+  $points)!default;
+
+//Footer Text Styles
+$footer-text-color: $black!default;
+$footer-link-color: $black!default;
+
+$footer-headline-font-family:       $font-family-display!default;
+$footer-headline-size:               2rem!default;
+$footer-headline-line-height:        2rem!default;
+$footer-headline-size-mobile:        2rem!default;
+$footer-headline-line-height-mobile: 2rem!default;
+
+$footer-title-font-weight:       $font-family-sans-serif-bold!default;
+$footer-title-size:               1rem!default;
+$footer-title-line-height:        1.5rem!default;
+$footer-title-size-mobile:        1.125rem!default;
+$footer-title-line-height-mobile: 1.5rem!default;
+
+$footer-body-size:               1rem!default;
+$footer-body-line-height:        1.5rem!default;
+$footer-body-size-mobile:        1rem!default;
+$footer-body-line-height-mobile: 1.5rem!default;
+
+footer ul li {list-style-type: none!default;}
+
+$lead-font-size:              $font-size-base * 1.25!default;
+$lead-font-weight:            normal!default;
+
+$small-font-size:             80%!default;
+
+$blockquote-small-color:      $gray-600!default;
+$blockquote-small-font-size:  $small-font-size!default;
+$blockquote-font-size:        $font-size-base * 1.25!default;
+
+$hr-border-color:             rgba($black, .1)!default;
+$hr-border-width:             $border-width!default;
+
+$mark-padding:                .2em!default;
+
+$dt-font-weight:              $font-weight-bold!default;
+
+$kbd-box-shadow:              inset 0 -.1rem 0 rgba($black, .25)!default;
+$nested-kbd-font-weight:      $font-weight-bold!default;
+
+$list-inline-padding:         .5rem!default;
+
+$mark-bg:                     #fcf8e3!default;
+
+$hr-margin-y:                 $spacer!default;
+
+//Button Text Styles
+$btn-font-family: $font-family-base!default;
+$btn-font-weight: $font-weight-bolder!default;
+$primary-btn-text-transform:     none!default;
+$priority-btn-text-transform:     uppercase!default;
+$secondary-btn-text-transform:     none!default;
+$ghost-btn-text-transform:     none!default;
+
+// Figures
+
+$figure-caption-font-size:          90% !default;
+$figure-caption-color:              $gray-600 !default;
+
+$bullets-icon: "\2022"!default;
+
+// Checked List Styles - not the checkbox input, just the li
+$checked-list-icon-size: 1.5rem!default;
+$checked-list-icon-color: $primary!default;
+$checked-list-icon: str-replace(url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpolygon fill='#{$checked-list-icon-color}' points='9.189 14.939 6.061 11.811 5 12.873 9.189 17.061 18.189 8.061 17.128 7'/%3E%3C/svg%3E"), "#", "%23")!default;
+

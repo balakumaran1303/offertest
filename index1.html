@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="./js/jquery/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/slick/slick.js"></script>
+    <script src="./js/components/carousel.js"></script>
+    <script src="./js/components/help.js"></script>
+
+
+    <div class="px-0 container px-lg-3 text-right">
+        <a type="button" class="mb-3 mt-3 help-toggel ">Open All</a>
+    </div>
+
+    <!-- help library -->
+    <div class="px-0 text-break accordian-section container textoffer px-lg-3">
+        <div class="mb-3 rounded border-gray-200 border">
+            <div role="button" tabindex="0" class="py-3 px-4 bg-dark accordian-title justify-content-between
+                d-md-flex" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <h2 class="m-0 font-weight-bolder">Booking Vacations
+                    <button type="button" class="float-right accordian-links resort-link btn btn-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="ml-2 svg-fill-gray ds-svg-icon">
+                            <polygon fill="#FFF" fill-rule="evenodd" points="16.59 16 12 11.055 7.41 16 6 14.478 12 8 18 14.478"></polygon>
+                        </svg>
+                    </button>
+                </h2>
+            </div>
+            <div class="px-4 my-4 collapse" id="collapseExample">
+                <div class="accordian-link-section mb-3">
+                    <button type="button" class="accordian-link-title text-decoration-none px-0 pt-0 resort-link text-left font-weight-bold btn btn-link" data-toggle="collapse" data-target="#innercollapseExample" aria-expanded="true" aria-controls="innercollapseExample">
+                    What are my options if I have to cancel or change the dates or location of a vacation I’ve already booked?
+                        <svg class="ml-1 svg-fill-primary ds-svg-icon">
+                            <polygon fill="#FFF" fill-rule="evenodd"
+                                points="16.59 16 12 11.055 7.41 16 6 14.478 12 8
+                                18 14.478">
+                            </polygon>
+                        </svg>
+                </button>
+                    <div class="accordian-description collapse show" id="innercollapseExample">
+                        <p>If you have a confirmed Exchange Vacation that has to be changed or canceled, you will forfeit your exchange fee and possibly a portion of the Club Wyndham Points you exchanged. However, as an RCI member, you have the option to
+                            protect your exchange vacation by adding Points Protection.
+                            <a href="/post-wvr-en_US/accordian-library/points-protection.page">
+                            This protection will allow you to have 100%
+                            of your CLUB WYNDHAM® Points returned to
+                            your RCI account for future use
+                        </a> .
+                            <br> Note: Points Protection is not insurance.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordian-link-section mb-3">
+                    <button type="button" class=" accordian-link-title text-decoration-none px-0 pt-0 resort-link text-left font-weight-bold btn btn-link" data-toggle="collapse" data-target="#innercollapseExample2" aria-expanded="false" aria-controls="innercollapseExample2">
+                    I prefer to speak to someone directly. Can I call a travel guide?
+                        <svg class="ml-1 svg-fill-primary ds-svg-icon">
+                            <polygon fill="#FFF" fill-rule="evenodd"
+                                points="16.59 16 12 11.055 7.41 16 6 14.478 12 8
+                                18 14.478">
+                            </polygon>
+                        </svg>
+                </button>
+                    <div class="accordian-description collapse" id="innercollapseExample2">
+                        <p>If you have a confirmed Exchange Vacation that has to be changed or canceled, you will forfeit your exchange fee and possibly a portion of the Club Wyndham Points you exchanged. However, as an RCI member, you have the option to
+                            protect your exchange vacation by adding Points Protection.
+                            <a href="/post-wvr-en_US/accordian-library/points-protection.page">
+                            This protection will allow you to have 100%
+                            of your CLUB WYNDHAM® Points returned to
+                            your RCI account for future use
+                        </a> .
+                            <br> Note: Points Protection is not insurance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-0 text-break accordian-section container textoffer px-lg-3">
+        <div class="mb-3 rounded border-gray-200 border">
+            <button type="button" class="resort-link btn btn-link">
+                <div class="py-3 px-4 bg-dark accordian-title justify-content-between
+                    d-md-flex" data-toggle="collapse" aria-expanded="false" data-target="#collapseExample2" aria-controls="collapseExample2">
+                    <h2 class="m-0 font-weight-bolder">Vacation Planning
+                        <span class="float-right accordian-links" >
+                            <svg width="24" height="24" viewBox="0 0 24 24" class="ml-2 svg-fill-gray ds-svg-icon">
+                                <polygon fill="#FFF" fill-rule="evenodd" points="16.59 16 12 11.055 7.41 16 6 14.478 12 8 18 14.478"></polygon>
+                            </svg>
+                        </span>
+                        
+                    </h2>
+                </div>
+            </button>
+
+            <div class="px-4 my-4 collapse" id="collapseExample2">
+                <div class="accordian-link-section mb-3">
+                    <button type="button" class="accordian-link-title text-decoration-none px-0 pt-0 resort-link text-left font-weight-bold btn btn-link" data-toggle="collapse" data-target="#inner2collapseExample" aria-expanded="true" aria-controls="inner2collapseExample">
+                    Why should I start planning my vacation so far in advance?
+                        <svg class="ml-1 svg-fill-primary ds-svg-icon">
+                            <polygon fill="#FFF" fill-rule="evenodd"
+                                points="16.59 16 12 11.055 7.41 16 6 14.478 12 8
+                                18 14.478">
+                            </polygon>
+                        </svg>
+                </button>
+                    <div class="accordian-description collapse show " id="inner2collapseExample">
+                        <p>Planning in advance is one of the best ways to get the vacation you want. The earlier you start to plan, the more vacation options you'll have to choose from AND the more likely you are to find what you’re looking for.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordian-link-section mb-3">
+                    <button type="button" class="accordian-link-title text-decoration-none px-0 pt-0 resort-link text-left font-weight-bold btn btn-link" data-toggle="collapse" data-target="#inner2collapseExample2" aria-expanded="false" aria-controls="inner2collapseExample2">
+                    When should I begin searching for my exchange vacation?
+                        <svg class=" ml-1 svg-fill-primary ds-svg-icon ">
+                            <polygon fill="#FFF " fill-rule="evenodd "
+                                points="16.59 16 12 11.055 7.41 16 6 14.478 12 8 18 14.478 ">
+                            </polygon>
+                        </svg>
+                </button>
+                    <div class="accordian-description collapse" id="inner2collapseExample2">
+                        <p>You should begin your search as early as possible. The earlier you search, the more exchange options you’re likely to find. RCI has a variety of search options to fit the needs of various types of vacation searchers.
+                        </p>
+                        <ul>
+                            <li>Advanced Search: Allows you to select all of your desired criteria at one time and begin searching.</li>
+                            <li>Favorites Search: If you generally search for the same type of vacation or resort each time, you can save your desired search criteria as a Favorite Search.</li>
+                            <li>Ongoing Search: If you can’t find what you’re looking for in your initial search, RCI will continue to search for you, notifying you when a match is found.</li>
+                            <li>Interactive Map: When you know the destination you have in mind and just need to find the perfect resort, the interactive map is a great tool to use.</li>
+                            <li>Recommendations: Based on your search history and past travel, RCI will put together resorts matching your interests.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

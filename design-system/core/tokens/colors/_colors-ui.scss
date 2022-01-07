@@ -1,0 +1,85 @@
+// UI Color Variables
+//
+// UI Theme
+// Text Colors
+// SVG Icon Colors
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+$primary: #FF00FF!default;
+$priority: #74FF00!default;
+$secondary: #F5F5F5!default;
+
+$color-secondary: #F5F5F5!default;
+$color-secondary-outline: #C7C6C8!default;
+
+$color-info: #1063E9;
+$color-success: #76B143;
+$color-warning: #FFC107;
+$color-danger: #8B0F04;
+
+$accent-colors: ()!default;
+$theme-colors: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge((
+    "primary": $primary,
+    "priority": $priority,
+    "secondary": $secondary,
+    "white": $white,
+    "black": $black,
+    "success": $background-color-success,
+    "info": $background-color-info,
+    "warning": $background-color-warning,
+    "danger": $background-color-danger,
+    ),
+  $theme-colors);
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval: 8% !default;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold: 150 !default;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark: $gray-900 !default;
+$yiq-text-light: $white !default;
+
+// Text Colors
+$text-black: rgba(0, 0, 0, 0.87)!default;
+$text-disabled: #7C7C7E!default;
+$text-muted: rgba(0, 0, 0, 0.6)!default;
+$text-success: #28A745!default;
+$text-info: #17A2B8!default;
+$text-warning: #FFC107!default;
+$text-danger: #B00020!default;
+
+$text-colors: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+$text-colors: map-merge(("primary": $primary,
+    "priority": $priority,
+    "secondary": $secondary,
+    "black": $text-black,
+    "success": $text-success,
+    "info": $text-info,
+    "warning": $text-warning,
+    "danger": $text-danger,
+    "muted": $text-muted,),
+  $text-colors);
+
+//Icon Colors
+$icon-colors: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+$icon-colors: map-merge((
+    "primary": $primary,
+    "priority": $priority,
+    "white": $white,
+    "black": $black,
+    "gray": $gray-600,
+    "disabled": $text-disabled,
+    "blue": $blue,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green ),
+  $icon-colors);

@@ -1,0 +1,140 @@
+.stackla-session {
+    background-color: $rose;
+    & .stackla-header {
+        @extend .col-lg-6,
+        .col-xl-6,
+        .col-md-12,
+        .pl-3,
+        .pr-3;
+        & .stackla-container {
+            @extend .col-sm-12,
+            .pl-3,
+            .pr-3;
+            & .stackla-content {
+                @extend .mb-5,
+                .ml-xl-6,
+                .ml-lg-6,
+                .ml-md-0,
+                .ml-sm-0;
+                .header-spacing-stackla-widget {
+                    @include media-breakpoint-up(lg) {
+                        margin-top: 174px;
+                        margin-bottom: 48px;
+                    }
+                    @include media-breakpoint-down(md) {
+                        margin-top: 42px;
+                        margin-bottom: 32px;
+                    }
+                }
+                & .stackla-heading {
+                    @extend .display-1,
+                    .header-spacing-stackla-widget;
+                }
+                & .stackla-description {
+                    line-height: 1.75rem;
+                }
+            }
+        }
+    }
+    & .stackla-widget-container {
+        @extend .col-lg-6,
+        .col-xl-6,
+        .col-md-12,
+        .position-relative,
+        .pl-5,
+        .pr-5;
+    }
+    & .gradient-stackla {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 194px;
+        content: ' ';
+        z-index: 2;
+        backface-visibility: hidden;
+        opacity: 0.8;
+    }
+    & .gradient-stackla-bg-light-rose {
+        background: linear-gradient(180deg, $rose 0%, rgba(253, 243, 234, 0.02) 98.32%, rgba(253, 243, 234, 0) 100%);
+    }
+}
+
+//varient 1 - RCI-UK
+.stackla-component-varient1 {
+    & .stackla-description {
+        img {
+            width: 200px;
+        }
+    }
+    & .gradient-stackla-reverse {
+        transform: scaleY(-1);
+        height: 190px;
+        bottom: 0px;
+        width: 90%;
+    }
+}
+
+//Varient 2 - RCI-IND
+.stackla-component-varient2 {
+    & .gradient-stackla-reverse {
+        @include media-breakpoint-up(lg) {
+            transform: scaleY(-1);
+            height: 190px;
+            bottom: 400px;
+            width: 90%;
+        }
+        @include media-breakpoint-down(md) {
+            transform: scaleY(-1);
+            height: 190px;
+            bottom: 0px;
+            width: 90%;
+        }
+    }
+}
+
+//varient 3 - Club
+.stackla-component-varient3 {
+    & .stackla-header {
+        @extend .col-12,
+        .col-md-8,
+        .offset-md-2;
+        & .stackla-content {
+            & .stackla-heading {
+                @extend .display-2,
+                .text-center,
+                .mb-6;
+            }
+        }
+    }
+    & .stackla-widget-container {
+        @extend .col-12,
+        .col-md-10,
+        .offset-md-1;
+    }
+}
+
+//varient 4 - RCI-ORLAND-IND
+.stackla-component-varient4 {
+    & .stackla-header {
+        @extend .col-12,
+        .col-md-8,
+        .offset-md-2;
+        & .stackla-content {
+            & .stackla-heading {
+                @extend .display-2;
+                text-align: center;
+            }
+        }
+    }
+    & .stackla-widget-container {
+        @extend .col-12;
+    }
+    & .caption {
+        @extend .col-12,
+        .col-md-10,
+        .offset-md-1,
+        .pt-6,
+        .pl-3,
+        .pr-3;
+    }
+}

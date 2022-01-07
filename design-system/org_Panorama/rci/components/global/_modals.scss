@@ -1,0 +1,53 @@
+// Badges
+
+$badge-font-size:                   75%;
+$badge-font-weight:                 $font-weight-bold;
+$badge-padding-y:                   .25em;
+$badge-padding-x:                   .4em;
+$badge-border-radius:               $border-radius;
+
+$badge-transition:                  $btn-transition;
+$badge-focus-width:                 $input-btn-focus-width;
+
+$badge-pill-padding-x:              .6em;
+// Use a higher than normal value to ensure completely rounded edges when
+// customizing padding or font-size on labels.
+$badge-pill-border-radius:          10rem;
+
+
+// Modals
+
+// Padding applied to the modal body
+$modal-inner-padding:               1rem;
+
+$modal-dialog-margin:               .5rem;
+$modal-dialog-margin-y-sm-up:       1.75rem;
+
+$modal-title-line-height:           $line-height-base;
+
+$modal-content-color:               null;
+$modal-content-bg:                  $white;
+$modal-content-border-color:        rgba($black, .2);
+$modal-content-border-width:        $border-width;
+$modal-content-border-radius:       $border-radius-lg;
+$modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5);
+$modal-content-box-shadow-sm-up:    0 .5rem 1rem rgba($black, .5);
+
+$modal-backdrop-bg:                 $black;
+$modal-backdrop-opacity:            .5;
+$modal-header-border-color:         $border-color;
+$modal-footer-border-color:         $modal-header-border-color;
+$modal-header-border-width:         $modal-content-border-width;
+$modal-footer-border-width:         $modal-header-border-width;
+$modal-header-padding-y:            1rem;
+$modal-header-padding-x:            1rem;
+$modal-header-padding:              $modal-header-padding-y $modal-header-padding-x; // Keep this for backwards compatibility
+
+$modal-xl:                          1140px;
+$modal-lg:                          800px;
+$modal-md:                          500px;
+$modal-sm:                          300px;
+
+$modal-fade-transform:              translate(0, -50px);
+$modal-show-transform:              none;
+$modal-transition:                  transform .3s ease-out;

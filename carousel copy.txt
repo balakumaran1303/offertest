@@ -1,0 +1,2481 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div id="footer-logo" class="col-12 col-lg-2">
+                <a class="footer-icon"><img src="https://qab.rci.com//static/rcio_design_system/assets/icons/branding/rci-vertical.svg" alt="RCI"></a>
+            </div>
+            <div class="links-sec flex-wrap col-lg-7 col-sm-12 d-flex">
+                <div class="footer-list-group" id="help">
+                    <a class="footer-title d-xl-block d-none" title="HELP">HELP</a>
+                    <a data-target="help" class="footer-title d-xl-none" title="HELP">HELP</a>
+                    <ul class="footer-listing">
+                        <li><a class=" text-black" title="Help Library">Help Library</a></li>
+                        <li><a class=" text-black" title="Contact Us">Contact Us</a></li>
+                        <li><a class=" text-black" title="Travel Advisories">Travel Advisories</a> <span class="b-block text-danger">(updated)</span> </li>
+                    </ul>
+                </div>
+                <div class="footer-list-group" id="resource">
+                    <a class="footer-title d-xl-block d-none ">RESOURCES</a>
+                    <a data-target="resource" class="footer-title d-xl-none ">RESOURCES</a>
+                    <ul class="footer-listing">
+                        <li><a class=" text-black">Privacy Policy</a></li>
+                        <li><a class=" text-black">Disclosure Guide</a></li>
+                        <li><a class=" text-black">Terms of Use</a></li>
+                        <li><a class=" text-black">Terms &amp; Conditions</a> <span class="b-block text-danger">(updated)</span> </li>
+                        <li><a class=" text-black">RCI Affiliates</a></li>
+                        <li><a class=" text-black">Resale Advisory</a></li>
+                        <li><a class=" text-black">Fraud Alert</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12  text-lg-left">
+                <div class="pt-lg-0 pt-6">
+                    <p class="footer-headline text-center m-0">JOIN OUR COMMUNITY</p>
+                </div>
+                <div class="row pt-4 justify-content-center m-0">
+                    <div class="col-2">
+                        <a href="#!" class="fab fa-facebook-square social-facebook pr-3"><img src="https://www.rci.com/static/images/responsive/Clubs/Facebook.svg" /></a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#!" class="fab fa-twitter social-facebook pr-3"><img src="https://www.rci.com/static/images/responsive/Clubs/Instagram.svg" /></a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#!" class="fab fa-instagram social-facebook pr-3"><img src="https://www.rci.com/static/images/responsive/Clubs/Youtube.svg" /></a>
+                    </div>
+                </div>
+                <div class="col-12 mt-4">
+                    <p class="footer-legal footnote text-center"><span>RCI Points</span><a class="ml-2">1.317.805.9941</a></p>
+                    <p class="footer-legal footnote text-center mt-3">legal text</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="banner-carousel slick-carousel">
+    <div>
+        <div class="fluid-container
+            pb-4
+            rotating-carousel
+            position-relative" data-card="1">
+            <div class="slick-slider row mx-0 mb-5 mb-md-0">
+                <div class="px-0 carousel-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/images/content/_NAMER/special-offers/index/carousel/2021-q3-5.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousel-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/images/content/_NAMER/special-offers/index/carousel/2021-q3-5.jpg" alt="" class="w-100 h-100" />
+                    </div>
+
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow" id="next">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousel-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/images/content/_NAMER/special-offers/index/carousel/2021-q3-5.jpg" alt="" class="w-100 h-100" />
+                    </div>
+
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousel-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/images/content/_NAMER/special-offers/index/carousel/2021-q3-5.jpg" alt="" class="w-100 h-100" />
+                    </div>
+
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow" id="next">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offer-carousel">
+                <button type="button" class="prev-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="previous arrow" title="previous
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="16 7.41 14.478 6 8 12 14.478 18 16 16.59
+                            11.055 12"></polygon>
+                    </svg>
+                </button>
+
+                <button type="button" class="next-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="next arrow" title="next
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="8 16.59 12.945 12 8 7.41 9.522 6 16 12 9.522
+                            18"></polygon>
+                    </svg>
+                </button>
+
+            </div>
+
+
+            <div class="position-absolute bg-white carousel-index py-2 px-3
+                rounded-pill font-weight-bold">
+                <span>1</span>
+                <span class="px-1">/</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="offer-carousel
+    slick-carousel">
+    <div>
+        <div class="fluid-container
+            rotating-carousel
+            position-relative" data-card="4">
+            <div class="slick-slider row mx-0 mb-5 mb-md-0">
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-carousel">
+                <button type="button" class="prev-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="previous arrow" title="previous
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="16 7.41 14.478 6 8 12 14.478 18 16 16.59
+                            11.055 12"></polygon>
+                    </svg>
+                </button>
+
+                <button type="button" class="next-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="next arrow" title="next
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="8 16.59 12.945 12 8 7.41 9.522 6 16 12 9.522
+                            18"></polygon>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="position-absolute bg-white carousel-index py-2 px-3
+                rounded-pill font-weight-bold">
+                <span>1</span>
+                <span class="px-1">/</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="offer-carousel
+    slick-carousel">
+    <div>
+        <div class="fluid-container
+            rotating-carousel
+            position-relative" data-card="4">
+            <div class="slick-slider row mx-0 mb-5 mb-md-0">
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offer-carousel">
+                <button type="button" class="prev-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="previous arrow" title="previous
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="16 7.41 14.478 6 8 12 14.478 18 16 16.59
+                            11.055 12"></polygon>
+                    </svg>
+                </button>
+
+                <button type="button" class="next-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="next arrow" title="next
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="8 16.59 12.945 12 8 7.41 9.522 6 16 12 9.522
+                            18"></polygon>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="position-absolute bg-white carousel-index py-2 px-3
+                rounded-pill font-weight-bold">
+                <span>1</span>
+                <span class="px-1">/</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+$(document).ready(function() {
+    $(".slick-carousel").each(function(index) {
+        var noOfCards = $(this).hasClass('banner-carousel');
+        if (noOfCards) {
+            $(this).find(".slick-slider").slick({
+                dots: true,
+                infinite: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: false,
+                prevArrow: $(this).find(".prev-button"),
+                nextArrow: $(this).find(".next-button"),
+            });
+        } else {
+            $(this).find(".slick-slider").slick({
+                dots: false,
+                infinite: false,
+                autoplaySpeed: 6000,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: false,
+                prevArrow: $(this).find(".prev-button"),
+                nextArrow: $(this).find(".next-button"),
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+        }
+    });
+});
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div id="footer-logo" class="col-12 col-lg-2">
+                <a class="footer-icon"><img src="https://qab.rci.com//static/rcio_design_system/assets/icons/branding/rci-vertical.svg" alt="RCI"></a>
+            </div>
+            <div class="links-sec flex-wrap col-lg-7 col-sm-12 d-flex">
+                <div class="footer-list-group" id="help">
+                    <a class="footer-title d-xl-block d-none" title="HELP">HELP</a>
+                    <a data-target="help" class="footer-title d-xl-none" title="HELP">HELP</a>
+                    <ul class="footer-listing">
+                        <li><a class="footer-legal text-black" title="Help Library">Help Library</a></li>
+                        <li><a class="footer-legal text-black" title="Contact Us">Contact Us</a></li>
+                        <li><a class="footer-legal text-black" title="Travel Advisories">Travel Advisories <span class="d-block text-danger">(updated)</span> </a> </li>
+                    </ul>
+                </div>
+                <div class="footer-list-group" id="resource">
+                    <a class="footer-title d-xl-block d-none ">RESOURCES</a>
+                    <a data-target="resource" class="footer-title d-xl-none ">RESOURCES</a>
+                    <ul class="footer-listing">
+                        <li><a class="footer-legal text-black">Privacy Policy</a></li>
+                        <li><a class="footer-legal text-black">Disclosure Guide</a></li>
+                        <li><a class="footer-legal text-black">Terms of Use</a></li>
+                        <li><a class="footer-legal text-black">Terms &amp; Conditions <span class="d-block text-danger">(updated)</span> </a> </li>
+                        <li><a class="footer-legal text-black">RCI Affiliates</a></li>
+                        <li><a class="footer-legal text-black">Resale Advisory</a></li>
+                        <li><a class="footer-legal text-black">Fraud Alert</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12  text-lg-left">
+                <div class="pt-lg-0 pt-6">
+                    <p class="footer-headline text-center m-0">JOIN OUR COMMUNITY</p>
+                </div>
+                <div class="row pt-4 justify-content-center m-0">
+                    <div class="col-2">
+                        <a href="#!" class="fab fa-facebook-square social-facebook pr-3"><img src="https://www.rci.com/static/images/responsive/Clubs/Facebook.svg" /></a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#!" class="fab fa-twitter social-facebook pr-3"><img src="https://www.rci.com/static/images/responsive/Clubs/Instagram.svg" /></a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#!" class="fab fa-instagram social-facebook pr-3"><img src="https://www.rci.com/static/images/responsive/Clubs/Youtube.svg" /></a>
+                    </div>
+                </div>
+                <div class="col-12 mt-4">
+                    <p class="footer-legal footnote text-center"><span>RCI Points</span><a class="ml-2">1.317.805.9941</a></p>
+                    <p class="footer-legal footnote text-center mt-3">legal text</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="banner-carousel slick-carousel">
+    <div>
+        <div class="fluid-container
+            pb-4
+            rotating-carousel
+            position-relative" data-card="1">
+            <div class="slick-slider row mx-0 mb-5 mb-md-0">
+                <div class="px-0 carousel-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/images/content/_NAMER/special-offers/index/carousel/2021-q3-5.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousel-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/images/content/_NAMER/special-offers/index/carousel/2021-q3-5.jpg" alt="" class="w-100 h-100" />
+                    </div>
+
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow" id="next">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousel-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/images/content/_NAMER/special-offers/index/carousel/2021-q3-5.jpg" alt="" class="w-100 h-100" />
+                    </div>
+
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousel-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/images/content/_NAMER/special-offers/index/carousel/2021-q3-5.jpg" alt="" class="w-100 h-100" />
+                    </div>
+
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow" id="next">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offer-carousel">
+                <button type="button" class="prev-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="previous arrow" title="previous
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="16 7.41 14.478 6 8 12 14.478 18 16 16.59
+                            11.055 12"></polygon>
+                    </svg>
+                </button>
+
+                <button type="button" class="next-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="next arrow" title="next
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="8 16.59 12.945 12 8 7.41 9.522 6 16 12 9.522
+                            18"></polygon>
+                    </svg>
+                </button>
+
+            </div>
+
+
+            <div class="position-absolute bg-white carousel-index py-2 px-3
+                rounded-pill font-weight-bold">
+                <span>1</span>
+                <span class="px-1">/</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="offer-carousel
+    slick-carousel">
+    <div>
+        <div class="fluid-container
+            rotating-carousel
+            position-relative" data-card="4">
+            <div class="slick-slider row mx-0 mb-5 mb-md-0">
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-carousel">
+                <button type="button" class="prev-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="previous arrow" title="previous
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="16 7.41 14.478 6 8 12 14.478 18 16 16.59
+                            11.055 12"></polygon>
+                    </svg>
+                </button>
+
+                <button type="button" class="next-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="next arrow" title="next
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="8 16.59 12.945 12 8 7.41 9.522 6 16 12 9.522
+                            18"></polygon>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="position-absolute bg-white carousel-index py-2 px-3
+                rounded-pill font-weight-bold">
+                <span>1</span>
+                <span class="px-1">/</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="offer-carousel
+    slick-carousel">
+    <div>
+        <div class="fluid-container
+            rotating-carousel
+            position-relative" data-card="4">
+            <div class="slick-slider row mx-0 mb-5 mb-md-0">
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="previous arrow" title="previous
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" tabIndex="0" aria-label="next arrow" title="next
+                                        arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 carousal-tile position-relative">
+                    <div class="deals-banner">
+                        <img src="https://www.rci.com/static/Resorts/Assets/D525E03L.jpg" alt="" class="w-100 h-100" />
+                    </div>
+                    <div class="w-100 position-absolute carousel-card">
+                        <div class="container px-4 px-md-3">
+                            <div class="row mx-0 carousel-banner">
+                                <div class="col-lg-5 col-md-8
+                                    border-gray-200 border
+                                    p-4
+                                    bg-white
+                                    rounded
+                                    shadow-1
+                                    position-card-carousel">
+                                    <button type="button" class="prev-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="previous
+                                        arrow" title="previous arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="16 7.41 14.478 6 8 12
+                                                14.478 18
+                                                16 16.59 11.055 12"></polygon>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="next-button
+                                        bg-white
+                                        btn-primary
+                                        rounded-circle position-absolute
+                                        text-center
+                                        carousel-arrow p-0" aria-label="next
+                                        arrow" title="next arrow">
+                                        <svg class="svg-fill-black" width="24"
+                                            height="24" viewBox="0 0
+                                            24 24">
+                                            <polygon
+                                                fill="#FFF"
+                                                fill-rule="evenodd"
+                                                points="8 16.59 12.945 12 8 7.41
+                                                9.522 6
+                                                16 12 9.522 18"></polygon>
+                                        </svg>
+                                    </button>
+                                    <h2 class="banner-carousel-head">
+                                        Chart new waters with RCI® Cruise
+                                    </h2>
+                                    <p>
+                                        No restrictions on sailing dates, onboard credit with nearly every booking*, and the Best Rate Guaranteed on all sailings.
+                                    </p>
+                                    <a type="button" class="btn btn-primary
+                                        w-auto
+                                        cursor-pointer" tabindex="0">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offer-carousel">
+                <button type="button" class="prev-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="previous arrow" title="previous
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="16 7.41 14.478 6 8 12 14.478 18 16 16.59
+                            11.055 12"></polygon>
+                    </svg>
+                </button>
+
+                <button type="button" class="next-button bg-white btn-primary
+                    rounded-circle position-absolute text-center
+                    carousel-arrow p-0" aria-label="next arrow" title="next
+                    arrow">
+                    <svg class="svg-fill-black" width="24" height="24"
+                        viewBox="0 0
+                        24 24">
+                        <polygon
+                            fill="#FFF"
+                            fill-rule="evenodd"
+                            points="8 16.59 12.945 12 8 7.41 9.522 6 16 12 9.522
+                            18"></polygon>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="position-absolute bg-white carousel-index py-2 px-3
+                rounded-pill font-weight-bold">
+                <span>1</span>
+                <span class="px-1">/</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+// $(document).ready(function() {
+//     $(".footer-title").on('click', function(e) {
+//         e.preventDefault();
+//         if ($(window).width() < 960) {
+//             let linkParent = $(this).parents('.links-sec');
+//             console.log($(this).parent().not($(this).parent().hasClass('open')));
+//             console.log($(this).parent().not($(this).parent().hasClass('open')).hasClass('open'));
+//             if ($(this).parent().not($(this).parent().hasClass('open')).hasClass('open')) {
+//                 $(linkParent).children('.footer-list-group').removeClass('open');
+//             } else {
+//                 $(linkParent).children('.footer-list-group').removeClass('open');
+//                 $(this).parent().addClass('open');
+//             }
+
+//             //  //   behaviour
+
+//             // let footer_toggel = $(this).data('target');
+//             // if (linkParent.children('#' + footer_toggel).hasClass('open')) {
+//             //     $(linkParent).children('#' + footer_toggel).removeClass('open');
+//             // } else if (linkParent.children('.footer-list-group').hasClass('open')) {
+//             //     $(linkParent).children('.footer-list-group').removeClass('open');
+//             //     $(this).parent().addClass('open');
+//             // } else {
+//             //     $(this).parents('.links-sec').children('#' + footer_toggel).toggleClass('open');
+//             // }
+//         }
+//     });
+// });
+
+
+// $(document).ready(() => {
+//     $('.footer-title').attr("aria-expanded", "true");
+//     if ($(window).width() < 991) {
+//         $('.footer-title').attr("aria-expanded", "false");
+//         $('.footer-title').on('click', function(e) {
+//             accordian($(this));
+//         });
+//         $('.footer-title').on('keydown', function(e) {
+//             if (e.keyCode == 13) {
+//                 accordian($(this));
+//             }
+//         });
+//     }
+// });
+
+// function accordian(_this) {
+//     if (!$(_this).parent().hasClass('open')) {
+//         $(_this).attr("aria-expanded", "true");
+//         $('.links-sec').children('.footer-list-group').removeClass('open');
+//     } else {
+//         $(_this).attr("aria-expanded", "false");
+//     }
+//     $(_this).parent().toggleClass('open');
+// }
+// $(document).ready(() => {
+//     $('.footer-title').attr("aria-expanded", "true");
+//     if ($(window).width() < 991) {
+//         $('.footer-title').attr("aria-expanded", "false");
+//         $('.footer-title').on('click', function(e) {
+//             accordian($(this));
+//         });
+//         $('.footer-title').on('keydown', function(e) {
+//             if (e.keyCode == 13) {
+//                 accordian($(this));
+//             }
+//         });
+//     }
+// });
+
+// function accordian(_this) {
+//     if (!$(_this).parent().hasClass('open')) {
+//         $(_this).attr("aria-expanded", "true");
+//         $('.links-sec').children('.footer-list-group').removeClass('open');
+//     } else {
+//         $(_this).attr("aria-expanded", "false");
+//     }
+//     $(_this).parent().toggleClass('open');
+// }
+
+// Accessible  -  Define values for keycodes
+const keys = {
+    tab: 9,
+    untab: 16,
+    enter: 13,
+    escape: 27,
+    space: 32,
+    end: 35,
+    home: 36,
+    left: 37,
+    up: 38,
+    right: 39,
+    down: 40,
+}
+
+
+$(document).ready(() => {
+    $('.footer-title').attr("aria-expanded", "true");
+    if ($(window).width() < 991) {
+        $('.footer-title').attr("aria-expanded", "false");
+        $('.footer-title').on('click', function(e) {
+            accordian($(this));
+        });
+
+        $('.footer-title').on('keydown', function(e) {
+            $(this).parent().children(".footer-listing").addClass('d-none');
+            switch (e.keyCode) {
+                // tab
+                case 9:
+                    if ($(this).parent().hasClass('open')) {
+                        $(this).parent().children(".footer-listing").removeClass('d-none');
+                    } else {
+                        $(this).parent().children(".footer-listing").addClass('d-none');
+                    }
+                    console.log("tab", $(".footer-listing").not($(this).parent().children(".footer-listing")));
+                    break;
+                    // un tab
+                case 16:
+                    // untab pervious title
+                    // $(this).parent().children(".footer-listing").removeClass('d-none');
+                    // $(".footer-listing").addClass('d-none')
+                    // if ($(this).parent().hasClass('open')) {
+                    //     $(this).parent().children(".footer-listing").removeClass('d-none');
+                    //     accordian($(this));
+                    // } else {
+                    //     $(this).parent().children(".footer-listing").addClass('d-none');
+                    // }
+                    console.log("tab", $(".footer-listing").not($(this).parent().children(".footer-listing")));
+                    console.log("untab");
+                    break;
+                    // enter
+                case 13:
+                    $(this).parent().children(".footer-listing").removeClass('d-none');
+                    accordian($(this));
+
+                    console.log("enter open current tab");
+                    break;
+                    // up
+                case 38:
+                    // move prev title
+                    // accordian($(this));
+                    console.log("move prev tatitle", $(this).next().find('[tabindex="0"]'));
+                    $(this).next().find('[tabindex="0"]').focus().attr('data-target');
+                    break;
+                    // down
+                case 40:
+                    // move next title
+                    // accordian($(this));
+                    console.log("move prev tatitle", $(this).next().find('[tabindex="0"]'));
+                    $(this).prev().find('[tabindex="0"]').focus().attr('data-target');
+                    console.log("move next tatitle");
+                    break;
+
+            }
+
+
+            // if (e.keyCode == 13) {
+            //     accordian($(this));
+            //     $(this).parent().children(".footer-listing").removeClass('d-none');
+            // } else if (e.keyCode == 9) {
+            //     if ($(this).parent().hasClass('open')) {
+            //         $(this).parent().children(".footer-listing").removeClass('d-none');
+            //     } else {
+            //         $(this).parent().children(".footer-listing").addClass('d-none');
+            //     }
+            // } else if (e.keyCode == 16) {
+            //     $(this).parent().children(".footer-listing").addClass('d-none');
+            // }
+        });
+    }
+});
+
+function accordian(_this) {
+    if (!$(_this).parent().hasClass('open')) {
+        $('.links-sec').children('.footer-list-group').removeClass('open');
+    }
+    $(_this).parent().toggleClass('open');
+}
+
+// if (!$(this).parent().hasClass('open')) {
+//     $('.links-sec').children('.footer-list-group').removeClass('open');
+// }
+// $(this).parent().toggleClass('open');
+
+
+// Accessible - Define values
+// for keycodes
+
+function keyCodes() {
+    this.tab = 9;
+    this.untab = 16;
+    this.enter = 13;
+    this.escape = 27;
+    this.space = 32;
+    this.end = 35;
+    this.home = 36;
+    this.left = 37;
+    this.up = 38;
+    this.right = 39;
+    this.down = 40;
+}
+
+
+// // Accessible - bootstrap accordion
+// function accessible_bootstrap_accordion() {
+//     var keys = new keyCodes();
+
+//     // Tabs nav links
+//     $(document).on('keydown', '.comp-information [data-toggle="collapse"]', function(e) {
+//         var currentBtn = $(this),
+//             currentCardWrapper = currentBtn.parents('.card');
+
+
+//         function next() {
+//             $(currentCardWrapper.next().find('[data-toggle="collapse"]').focus().attr('data-target'));
+//         }
+
+//         function prev() {
+//             $(currentCardWrapper.prev().find('[data-toggle="collapse"]').focus().attr('data-target'));
+//         }
+
+
+//         if (e.which === keys.down) {
+//             e.preventDefault(); // Disable arrow key scrolling
+//             $(currentBtn.attr('data-target')).collapse('hide');
+
+//             if (currentCardWrapper.next('.card').length) {
+//                 next();
+//             } else {
+//                 prev();
+//             }
+
+//         } else if (e.which === keys.up) {
+//             e.preventDefault(); // Disable arrow key scrolling
+//             $(currentBtn.attr('data-target')).collapse('hide');
+
+//             if (currentCardWrapper.prev('.card').length) {
+//                 prev();
+//             } else {
+//                 next();
+//             }
+//         }
+//     });
+// }
+
+
+// // document.ready
+// jQuery(document).ready(function($) {
+//     accessible_bootstrap_accordion();
+// });
+
+
+// coustome
+function accessible_bootstrap_accordionCoustom() {
+    var keys = new keyCodes();
+
+    // Tabs nav links
+    $(document).on('keydown', '.links-sec [data-toggle="collapse"]', function(e) {
+        var currentBtn = $(this),
+            currentCardWrapper = currentBtn.parents('.footer-list-group');
+
+
+        function next() {
+            $(currentCardWrapper.next().find('[data-toggle="collapse"]').focus().attr('data-target'));
+        }
+
+        function prev() {
+            $(currentCardWrapper.prev().find('[data-toggle="collapse"]').focus().attr('data-target'));
+        }
+
+
+        if (e.which === keys.down) {
+            e.preventDefault(); // Disable arrow key scrolling
+            // $(currentBtn.attr('data-target')).collapse('hide');
+
+            if (currentCardWrapper.next('.footer-list-group').length) {
+                next();
+            } else {
+                prev();
+            }
+
+        } else if (e.which === keys.up) {
+            e.preventDefault(); // Disable arrow key scrolling
+            // $(currentBtn.attr('data-target')).collapse('hide');
+
+            if (currentCardWrapper.prev('.footer-list-group').length) {
+                prev();
+            } else {
+                next();
+            }
+        }
+    });
+}
+
+
+// document.ready
+jQuery(document).ready(function($) {
+    accessible_bootstrap_accordionCoustom();
+});
+
+
+$(() => {
+  $('.slick-carousel').each(function (index) {
+
+    	var noOfCards = $(this).hasClass('banner-carousel');
+        var autoplay = eval($(this).find('.rotating-carousel').attr('data-transition'));
+        var autoplaySpeed = eval($(this).find('.rotating-carousel').attr('data-carousel-speed'));
+
+		var milliseconds = autoplaySpeed !== undefined ? autoplaySpeed : 6000;
+        var transition = autoplay !== undefined ? autoplay : false;
+
+        if (noOfCards) {
+            const bannerCarousel = $(this).find(".slick-slider");
+            initializeSlick(bannerCarousel, $(this), 1, 1, [], true, transition, false, milliseconds);
+        } else {
+            const offerCarousel = $(this).find(".slick-slider");
+            initializeSlick(offerCarousel, $(this), 1, 1, carouselResponsiveBrkPnts(3, 4), false, transition, false, milliseconds);
+        }
+  });
+});
